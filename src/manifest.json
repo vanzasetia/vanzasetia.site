@@ -1,0 +1,16 @@
+{
+  "name": "Blog",
+  "icons": [
+    {
+      "src": "/favicons/icon-large.jpg",
+      "type": "image/jpeg",
+      "sizes": "1024x1024"
+    },
+    {
+      "src": "/favicons/icon-large-maskable.jpg",
+      "type": "image/jpeg",
+      "sizes": "1024x1024",
+      "purpose": "maskable"
+    }
+  ]
+}

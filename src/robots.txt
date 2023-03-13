@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vanzasetia.netlify.app/sitemap.xml

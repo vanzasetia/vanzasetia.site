@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+---
+
+<main class="flow">
+  <h1>{{ title }}</h1>
+  {% if blog %}
+    {% include "blogdate.njk" %}
+  {% endif %}
+  {% if description %}
+    <p>{{ description }}</p>    
+  {% endif %}
+  {% if blog %}
+    {% include "toc.njk" %}
+  {% endif %}
+  {{ content | safe }}
+</main>

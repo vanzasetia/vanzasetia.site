@@ -1,0 +1,17 @@
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "{{ title }}",
+    "datePublished": "{{ page.date | htmlDateString }}",
+    {% if dateModified %}
+      "dateModified": "{{ dateModified | htmlDateString }}",
+    {% endif %}
+    "url": "{{ page.url }}",
+    "description": "{{ description }}",
+    "author": {
+      "@type": "Person",
+      "name": "Vanza Setia"
+    }
+  }
+</script>

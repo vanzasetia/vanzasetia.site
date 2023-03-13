@@ -1,0 +1,6 @@
+<h2 id="table-of-contents" tabindex="-1">Table of contents</h2>
+{% if tocMaxLevel3 %}
+  {{ content | tocMaxLevel3 | safe }}
+  {% else %}
+  {{ content | toc | safe }}
+{% endif %}

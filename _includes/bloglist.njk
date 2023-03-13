@@ -1,0 +1,7 @@
+<ul>
+{% for blog in bloglist | reverse %}
+	<li>
+		<a href="{{ blog.url }}">{% if blog.data.title %}{{ blog.data.title }}{% else %}<code>{{ blog.url }}</code>{% endif %}</a>
+	</li>
+{% endfor %}
+</ul>
