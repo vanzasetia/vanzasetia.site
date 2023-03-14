@@ -11,8 +11,8 @@ numberOfLatestBlogsToShow: 5
   <nav>
     <ul class="header-list">
       {%- for entry in collections.all | eleventyNavigation %}
-					<li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
-			{%- endfor %}
+        <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+      {%- endfor %}
     </ul>
   </nav>
 </header>
