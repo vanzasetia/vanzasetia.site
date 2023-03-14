@@ -43,6 +43,7 @@ Here are the list of the colors that I use:
 - Background color: `#222`
 - Text color and border color: `#eee`
 - `<code>`'s background color: `#444`
+- Outline color: `#ffff00`
 
 ## Privacy policy
 
