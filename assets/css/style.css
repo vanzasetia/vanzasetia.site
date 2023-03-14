@@ -73,6 +73,26 @@ a {
   text-underline-offset: 0.3em;
 }
 
+[href="#main"] {
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  background-color: var(--foreground);
+  color: var(--background);
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1rem;
+}
+
+[href="#main"]:focus {
+  width: auto;
+  height: auto;
+  clip: auto;
+}
+
 h1,
 h2,
 h3 {
