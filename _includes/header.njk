@@ -1,0 +1,13 @@
+<header>
+  <a href="#main">Skip to main content</a>
+  <a href="/">
+    <span role="img" aria-label="Home - Vanza Setia">vanzasetia</span>
+  </a>
+  <nav>
+    <ul class="header-list">
+      {%- for entry in collections.all | eleventyNavigation %}
+        <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+      {%- endfor %}
+    </ul>
+  </nav>
+</header>

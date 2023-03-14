@@ -4,19 +4,7 @@ title: Greetings! You Have Accessed Vanza Setia’s Website.
 numberOfLatestBlogsToShow: 5
 ---
 
-<header>
-  <a href="#main">Skip to main content</a>
-  <a href="/">
-    <span role="img" aria-label="Home - Vanza Setia">vanzasetia</span>
-  </a>
-  <nav>
-    <ul class="header-list">
-      {%- for entry in collections.all | eleventyNavigation %}
-        <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
-      {%- endfor %}
-    </ul>
-  </nav>
-</header>
+{% include "header.njk" %}
 <main id="main" class="flow" tabindex="-1">
   <h1>Blog Posts</h1>
   <p>
