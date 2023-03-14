@@ -18,7 +18,7 @@ After spending three days creating this website, I decided to put it on the inte
 
 I am not a designer. But, I try my best to make sure that this website is not looking very bad.
 
-### Font Family
+### Font family
 
 I use the Noto Sans font family for the body text and headings. For the logo, I use the Miriam Libre font family.
 
