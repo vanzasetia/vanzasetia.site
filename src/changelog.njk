@@ -1,0 +1,14 @@
+---
+layout: layouts/content.njk
+title: Changelog
+---
+
+<p>List of changes that I made.</p>
+
+<ul>
+  {%- for commit in collections.recentChanges %}
+    <li>
+      [<code>{{ commit.abbrevHash }}</code>]: <a href="https://github.com/vanzasetia/personal-website/commit/{{ commit.abbrevHash }}">{{ commit.subject }}</a>
+    </li>
+  {%- endfor %}
+</ul>

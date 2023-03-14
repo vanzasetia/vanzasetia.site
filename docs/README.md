@@ -28,6 +28,7 @@ This is the place where I put all the resources that I find useful to build this
 - [Free Design Tool: Presentations, Video, Social Media | Canva](https://www.canva.com/)
 - [Squoosh](https://squoosh.app/)
 - [lhinderberger/toc-extract: Extracts a Table of Contents from HTML - toc-extract - Codeberg.org](https://codeberg.org/lhinderberger/toc-extract)
+- [workeffortwaste/eleventy-plugin-recent-changes: An Eleventy (11ty) plugin that creates a collection containing your recent commit history.](https://github.com/workeffortwaste/eleventy-plugin-recent-changes)
 - [Convert HTML to Markdown - Beautify Code](https://beautifycode.net/html-to-markdown)
 - [Free Markdown to HTML Converter](https://markdowntohtml.com/)
 - [Markdown ToC Generator](https://luciopaiva.com/markdown-toc/)

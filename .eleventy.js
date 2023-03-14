@@ -6,6 +6,7 @@ const { DateTime } = require("luxon");
 const tocExtract = require("toc-extract/plugins/eleventy.js");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const recentChanges = require("eleventy-plugin-recent-changes");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
@@ -23,6 +24,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPlugin(pluginBundle);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  eleventyConfig.addPlugin(recentChanges);
   eleventyConfig.setLibrary(
     "md",
     markdownIt({ html: true }).use(markdownItAnchor)
