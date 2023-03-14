@@ -4,6 +4,9 @@ title: About This Website
 description:
   I made this website to try and learn how to maintain a simple blog post
   website. I am also learning to use Eleventy to build this website.
+eleventyNavigation:
+  key: About
+  title: About This Website
 ---
 
 ## History
