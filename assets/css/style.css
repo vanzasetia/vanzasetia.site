@@ -79,7 +79,6 @@ body {
   color: var(--foreground);
   padding: 3rem 1rem;
   font-size: calc(1rem + 0.5vw);
-  font-size: var(--step-0);
 }
 
 a {
@@ -115,17 +114,32 @@ h3 {
 
 h1 {
   font-size: 3rem;
-  font-size: var(--step-5);
 }
 
 h2 {
   font-size: 2.4rem;
-  font-size: var(--step-4);
 }
 
 h3 {
   font-size: 1.9rem;
-  font-size: var(--step-3);
+}
+
+@supports (font-size: clamp(1rem, calc(0.84rem + 0.72vw), 1.44rem)) {
+  body {
+    font-size: var(--step-0);
+  }
+
+  h1 {
+    font-size: var(--step-5);
+  }
+
+  h2 {
+    font-size: var(--step-4);
+  }
+
+  h3 {
+    font-size: var(--step-3);
+  }
 }
 
 img {
