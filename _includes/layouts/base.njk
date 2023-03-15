@@ -32,13 +32,13 @@
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#222222">
     <meta name="description" content="{{ description or metadata.description }}" />
-    <meta name="url" content="{{ metadata.url }}" />
+    <meta name="url" content="{% if page.url == "/" %}{{ metadata.url }}{% else %}{{ metadata.url}}{{ page.url }}{% endif %}" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ title or metadata.title }}" />
     <meta property="og:site_name" content="Blog" />
     <meta property="og:description" content="{{ description or metadata.description }}" />
-    <meta property="og:url" content="{{ metadata.url }}" />
+    <meta property="og:url" content="{% if page.url == "/" %}{{ metadata.url }}{% else %}{{ metadata.url}}{{ page.url }}{% endif %}" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:creator" content="@vanzasetia" />
     <link rel="canonical" href="{{ metadata.url }}" />
