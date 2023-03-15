@@ -49,7 +49,7 @@ I also provide a light mode version for this website. Here is the list of the co
 
 - Background color: `#eee`
 - Text color and border color: `#222`
-- `<code>`'s background color: `#bbb`
+- `<code>`'s background color: `#ccc`
 - Outline color: `#0e4377`
 
 ## Privacy policy
