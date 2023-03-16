@@ -185,7 +185,7 @@ blockquote {
   border-left: 0.3rem solid;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
-  padding-left: 2rem;
+  padding-left: 1em;
 }
 
 code {
