@@ -7,6 +7,7 @@ const tocExtract = require("toc-extract/plugins/eleventy.js");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const recentChanges = require("eleventy-plugin-recent-changes");
+const htmlmin = require("html-minifier");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
@@ -61,6 +62,18 @@ module.exports = function (eleventyConfig) {
     }
 
     return array.slice(0, n);
+  });
+
+  eleventyConfig.addTransform("htmlmin", function (content) {
+    if (this.page.outputPath && this.page.outputPath.endsWith(".html")) {
+      let minified = htmlmin.minify(content, {
+        removeComments: true,
+        collapseWhitespace: true
+      });
+      return minified;
+    }
+
+    return content;
   });
 
   return {
