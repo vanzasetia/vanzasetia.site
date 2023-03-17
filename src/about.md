@@ -54,7 +54,7 @@ I also provide a light mode version for this website. Here is the list of the co
 
 ## Privacy policy
 
-I do not collect any of your information. I do not put any kind of trackers and cookies. I provide the source code of this website so that you can verify it by yourself.
+I do not collect any of your information. I do not put any kind of trackers and cookies.
 
 ### Links to other websites
 
