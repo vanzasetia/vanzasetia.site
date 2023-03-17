@@ -16,7 +16,7 @@ numberOfLatestBlogsToShow: 5
   {% set bloglist = collections.blog | head(-1 * numberOfLatestBlogsToShow) %}
   {% include "bloglist.njk" %}
 </main>
-<footer>
+<footer class="flow">
   <ul class="footer-list">
     <li>
       <a href="/feed.xml">RSS</a>
@@ -36,11 +36,6 @@ numberOfLatestBlogsToShow: 5
     <li>
       <a href="https://www.linkedin.com/in/vanzasetia/">LinkedIn</a>
     </li>
-    <li>
-      <a href="https://github.com/vanzasetia/personal-website">Source code for this site</a>
-    </li>
-    <li>
-      <a href="https://github.com/vanzasetia/personal-website/blob/main/LICENSE">License GNU AGPLv3</a>
-    </li>
   </ul>
+  <p>This website is powered by <a href="https://www.11ty.dev/">Eleventy</a>, <a href="https://www.netlify.com">Netlify</a>, and <a href="https://github.com/vanzasetia/personal-website">GitHub</a>. <a href="https://github.com/vanzasetia/personal-website/blob/main/LICENSE">License GNU AGPLv3</a></p>
 </footer>
