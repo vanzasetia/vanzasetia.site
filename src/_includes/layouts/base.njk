@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{% if page.url == "/" %}{{ title }}{% else %}{{ title }} — Vanza Setia{% endif %}</title>
-    {%- css %}{% include "assets/css/style.min.css" %}{% endcss %}
+    {% css %}{% include "assets/css/style.min.css" %}{% endcss %}
     <style>
       {% getBundle "css" %}
     </style>
