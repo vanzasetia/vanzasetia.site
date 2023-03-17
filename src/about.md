@@ -11,11 +11,11 @@ eleventyNavigation:
 
 ## History
 
-When I first started this project, I just wanted to try out the idea of having my own blog. It turned out that I was getting more serious about it. Then I decided to to make it as good as possible with HTML and CSS.
+When I first started this project on March 11, 2023, I just wanted to try the idea of having my own blog. It turned out that I was getting more serious about it. Then I decided to to make it as good as possible with HTML and CSS.
 
-After that I found Eleventy, which can help me build this website. I started playing with it for a day. I tried creating an RSS feed. I tried moving all my blog posts from CodeNewbie to this website—luckily I don't have many blog posts.
+After that I tried to use Eleventy. I started playing with it for a day. I tried creating an RSS feed. I tried moving all my blog posts from CodeNewbie to this website—luckily I don't have many blog posts.
 
-After spending three days creating this website, I decided to put it on the internet. I will see how it goes.
+After spending three days creating this website, I decided to put it on the internet.
 
 ## Design
 
