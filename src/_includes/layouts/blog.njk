@@ -5,14 +5,10 @@ layout: layouts/base.njk
 {% include "header.njk" %}
 <main id="main" class="flow" tabindex="-1">
   <h1>{{ title }}</h1>
-  {% if blog %}
-    {% include "blogdate.njk" %}
-  {% endif %}
+  {% include "blog/date.njk" %}
   {% if description %}
     <p>{{ description }}</p>    
   {% endif %}
-  {% if blog %}
-    {% include "toc.njk" %}
-  {% endif %}
+  {% include "toc.njk" %}
   {{ content | safe }}
 </main>

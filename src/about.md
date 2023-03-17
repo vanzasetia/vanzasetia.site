@@ -1,5 +1,5 @@
 ---
-layout: layouts/pagetoc.njk
+layout: layouts/general.njk
 title: About This Website
 description:
   I made this website to try and learn how to maintain a simple blog post

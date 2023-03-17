@@ -1,5 +1,5 @@
 ---
-layout: layouts/pagetoc.njk
+layout: layouts/general.njk
 title: Resources
 description: This page contains a wide range of resources that I found useful.
 eleventyNavigation:

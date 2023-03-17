@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+---
+
+{% include "header.njk" %}
+<main id="main" class="flow" tabindex="-1">
+  <h1>{{ title }}</h1>
+  {% if description %}
+    <p>{{ description }}</p>    
+  {% endif %}
+  {% include "toc.njk" %}
+  {{ content | safe }}
+</main>

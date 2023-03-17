@@ -14,7 +14,7 @@ numberOfLatestBlogsToShow: 5
     Below are five of my latest blog posts.
   </p>
   {% set bloglist = collections.blog | head(-1 * numberOfLatestBlogsToShow) %}
-  {% include "bloglist.njk" %}
+  {% include "blog/list.njk" %}
 </main>
 <footer class="flow">
   <ul class="footer-list">
