@@ -161,7 +161,7 @@ header + main {
 }
 
 main + footer {
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 
 ul[class] {
@@ -262,13 +262,18 @@ header [href="/"] {
   font-weight: 700;
 }
 
-.footer-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: -1rem;
+footer {
+  --space: 0.8em;
+  text-align: center;
 }
 
-.footer-list a {
+footer p {
+  max-width: 40ch;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-list li {
   display: inline-block;
   margin: 1rem;
 }
