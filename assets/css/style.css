@@ -174,8 +174,7 @@ ul[class] {
 }
 
 ul:not([class]) {
-  padding-left: 2.5rem;
-  padding-inline-start: 2.5rem;
+  padding-left: 1.25em;
 }
 
 ul:not([class]) li + li {
