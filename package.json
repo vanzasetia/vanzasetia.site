@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "eleventy",
-    "start": "eleventy --serve --quiet",
+    "start": "eleventy --serve --quiet --incremental",
     "check-links": "check-html-links _site"
   },
   "devDependencies": {
