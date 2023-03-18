@@ -27,12 +27,10 @@
   --black: #222;
   --white: #eee;
   --very-light-black: #ccc;
-  --yellow: #ffff00;
-  --dark-blue: #0e4377;
   --background: var(--white);
   --foreground: var(--black);
   --inline-code-background: var(--very-light-black);
-  --outline-focus-color: var(--dark-blue);
+  --outline-focus-color: var(--foreground);
   --step--2: clamp(0.69rem, calc(0.61rem + 0.37vw), 0.92rem);
   --step--1: clamp(0.83rem, calc(0.72rem + 0.52vw), 1.15rem);
   --step-0: clamp(1rem, calc(0.84rem + 0.72vw), 1.44rem);
@@ -48,7 +46,6 @@
     --background: var(--black);
     --foreground: var(--white);
     --inline-code-background: var(--light-black);
-    --outline-focus-color: var(--yellow);
   }
 }
 
@@ -151,9 +148,17 @@ img {
 header,
 main,
 footer {
-  max-width: 60ch;
   margin-right: auto;
   margin-left: auto;
+}
+
+header {
+  max-width: 80ch;
+}
+
+main,
+footer {
+  max-width: 60ch;
 }
 
 header + main {

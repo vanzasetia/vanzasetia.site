@@ -43,14 +43,12 @@ Here are the list of the colors that I use:
 - Background color: `#222`
 - Text color and border color: `#eee`
 - `<code>`'s background color: `#444`
-- Outline color: `#ffff00`
 
 I also provide a light mode version for this website. Here is the list of the colors:
 
 - Background color: `#eee`
 - Text color and border color: `#222`
 - `<code>`'s background color: `#ccc`
-- Outline color: `#0e4377`
 
 ## Privacy policy
 

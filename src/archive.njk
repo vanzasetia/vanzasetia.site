@@ -2,6 +2,9 @@
 layout: layouts/general.njk
 title: Archive
 description: A list of my blog posts from newest to oldest.
+eleventyNavigation:
+  key: Archive
+  order: 3
 ---
 
 {% set bloglist = collections.blog %} {% include "blog/list.njk" %}
