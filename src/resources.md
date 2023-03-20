@@ -45,6 +45,7 @@ You can make your development process better and quicker by using these tools.
 - [W3C HTML Validator](https://validator.w3.org/) - Accessible website starts with valid HTML. So, make sure that your website has valid HTML.
 - [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Valid CSS is also important to ensure that the styling of your site works as expected.
 - [W3C Feed Validation Service, for Atom and RSS](https://validator.w3.org/feed/) - I use this tool to validate my RSS feed.
+- [W3C Link Checker](https://validator.w3.org/checklink) - Make sure that you have valid links on your site.
 - [Schema Validator](https://validator.schema.org/) - Validate your schema data.
 - [Lighthouse](https://developer.chrome.com/docs/lighthouse/) - I recommend using this as the first automatic testing tool for your site. It can catch some accessibility issues and do different types of tests too.
 - [PageSpeed Insights](https://pagespeed.web.dev/) - You can use this website to share with people about your Lighthouse score.
