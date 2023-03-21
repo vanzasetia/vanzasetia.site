@@ -170,7 +170,9 @@ Then, Termux will ask you a question. You can answer it with `Y`.
 
 That's it! Now, your Termux is ready to use.
 
-> The list of the official Termux packages is coming from the [Termux Wiki page](https://wiki.termux.com/wiki/Package_Management)
+{% note %}
+The list of the official Termux packages is coming from the <a href="https://wiki.termux.com/wiki/Package_Management">Termux Wiki page</a>
+{% endnote  %}
 
 ### Basic commands
 
@@ -198,7 +200,9 @@ Android    DCIM
 test       notes.txt
 ```
 
-> Note: Yours might be different, but you should see the `test` folder if you follow along.
+{% warning %}
+Yours might be different, but you should see the <code>test</code> folder if you follow along.
+{% endwarning  %}
 
 Fourth, `touch` : create file(s)
 
@@ -210,7 +214,7 @@ index.html    style.css
 ~/.../shared/test $
 ```
 
-> To learn more commands, you can visit the [Linux Journey website](https://linuxjourney.com/lesson/the-shell).
+To learn more commands, you can visit the [Linux Journey website](https://linuxjourney.com/lesson/the-shell).
 
 ### Install Git
 
@@ -259,7 +263,7 @@ After that, you can use it by executing this command:
 
 Luckily, Termux version 0.117 already provides you with the arrow keys. Otherwise, you have to use `h`, `j`, `k`, and `l` to navigate in Vim.
 
-> To learn more about Vim key bindings, visit [Vim Cheat Sheet](https://vim.rtorr.com/)
+To learn more about Vim key bindings, visit [Vim Cheat Sheet](https://vim.rtorr.com/)
 
 I am going to show you all the things that commonly you will use on Vim:
 
@@ -270,7 +274,7 @@ I am going to show you all the things that commonly you will use on Vim:
   - Type `:q!` to exit without saving the file
   - Type `:wq` to save and exit
 
-> **Pro tip**: Only use Vim for Git stuff. Once, you are comfortable with Termux and Vim, you can start using them to edit the `.bashrc` file to set up aliases.
+**Pro tip**: Only use Vim for Git stuff. Once, you are comfortable with Termux and Vim, you can start using them to edit the `.bashrc` file to set up aliases.
 
 ### Install Node.js
 

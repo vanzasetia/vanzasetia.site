@@ -1,7 +1,7 @@
 ---
 title: 5 Handy Sass Code Snippets
 date: 2022-10-12
-dateModified: 2022-11-22
+dateModified: 2023-03-21
 ---
 
 ## Disclaimer
@@ -220,7 +220,9 @@ The example of the usage.
 }
 ```
 
-> **Tips**: For animations and transitions, I recommend [taking a no-motion-first approach](https://tatianamac.com/posts/prefers-reduced-motion). This way, only the users who choose to see them will be able to see them. Also, if the users' browsers don't support the `prefers-reduced-motion` media query, they will not see any animations and transitions.
+{% note %}
+For animations and transitions, I recommend <a href="https://tatianamac.com/posts/prefers-reduced-motion">taking a no-motion-first approach</a>. This way, only the users who choose to see them will be able to see them. Also, if the users' browsers don't support the <code>prefers-reduced-motion</code> media query, they will not see any animations and transitions.
+{% endnote %}
 
 ## Sass-sy Copy Paste
 

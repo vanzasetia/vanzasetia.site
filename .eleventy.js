@@ -64,6 +64,24 @@ module.exports = function (eleventyConfig) {
     return array.slice(0, n);
   });
 
+  eleventyConfig.addPairedShortcode("note", (content) => {
+    return `<aside aria-label="note" class="note">
+      <div>
+        <svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor" aria-hidden="true" focusable="false"><path d="M14 9.5c0-.825.675-1.5 1.5-1.5h1c.825 0 1.5.675 1.5 1.5v1c0 .825-.675 1.5-1.5 1.5h-1c-.825 0-1.5-.675-1.5-1.5v-1zM20 24h-8v-2h2v-6h-2v-2h6v8h2z"/><path d="M16 0C7.163 0 0 7.163 0 16s7.163 16 16 16 16-7.163 16-16S24.837 0 16 0zm0 29C8.82 29 3 23.18 3 16S8.82 3 16 3s13 5.82 13 13-5.82 13-13 13z"/></svg>
+        <p>${content}</p>
+      </div>
+    </aside>`;
+  });
+
+  eleventyConfig.addPairedShortcode("warning", (content) => {
+    return `<aside aria-label="warning" class="note note--warning">
+      <div>
+        <svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor" aria-hidden="true" focusable="false"><path d="m16 2.899 13.409 26.726H2.59L15.999 2.899zM16 0c-.69 0-1.379.465-1.903 1.395L.438 28.617C-.608 30.477.282 32 2.416 32h27.166c2.134 0 3.025-1.522 1.978-3.383L17.901 1.395C17.378.465 16.688 0 15.998 0z"/><path d="M18 26a2 2 0 1 1-3.999.001A2 2 0 0 1 18 26zM16 22a2 2 0 0 1-2-2v-6a2 2 0 1 1 4 0v6a2 2 0 0 1-2 2z"/></svg>
+        <p>${content}</p>
+      </div>
+    </aside>`;
+  });
+
   eleventyConfig.addTransform("htmlmin", function (content) {
     if (this.page.outputPath && this.page.outputPath.endsWith(".html")) {
       let minified = htmlmin.minify(content, {

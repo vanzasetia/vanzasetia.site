@@ -50,7 +50,9 @@ main
     button:submit
 ```
 
-> For your information: I use [Emmet syntax](https://docs.emmet.io/cheat-sheet/) as the syntax for my [pseudocode](https://en.wikipedia.org/wiki/Pseudocode). It's up to you how to write the pseudocode.
+{% note %}
+I use <a href="https://docs.emmet.io/cheat-sheet/">Emmet syntax</a> as the syntax for my <a href="https://en.wikipedia.org/wiki/Pseudocode">pseudocode</a>. It's up to you how to write the pseudocode.
+{% endnote  %}
 
 There are reasons why I decided to write the HTML markup like that.
 
@@ -99,7 +101,9 @@ ARIA (Accessible Rich Internet Application) attributes allow us to extend the ab
 
 It's important to know that [**no ARIA is better than bad ARIA**](https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/). So, you need to have a reason to use ARIA attributes. Otherwise, don't use them.
 
-> Fun fact: _"Increased ARIA usage on pages correlated to higher detected errors. The more ARIA attributes that were present, the more detected accessibility errors could be expected."_ From [WebAIM: The WebAIM Million - The 2022 report on the accessibility of the top 1,000,000 home pages](https://webaim.org/projects/million/).
+> _"Increased ARIA usage on pages correlated to higher detected errors. The more ARIA attributes that were present, the more detected accessibility errors could be expected."_ 
+>
+> From [WebAIM: The WebAIM Million - The 2022 report on the accessibility of the top 1,000,000 home pages](https://webaim.org/projects/million/).
 
 You need to use `aria-live` attribute to make the alert message get pronounced by screen readers.
 
@@ -278,7 +282,9 @@ form > * + * {
 }
 ```
 
-> For your information: The `* + *` selector is called "Lobotomized Owl Selector". Learn more about it — [Axiomatic CSS and Lobotomized Owls](https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/)
+{% note %}
+The <code>* + *</code> selector is called "Lobotomized Owl Selector". Learn more about it — <a href="https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/">Axiomatic CSS and Lobotomized Owls</a>
+{% endnote  %}
 
 If you are going to use it in different places, you should make it a utility class instead.
 

@@ -22,7 +22,9 @@ I still want to highlight some of the things that this website does not have.
 
 The first three items can be considered good things. But, `<div>`? Is that something I should be proud of? NO.
 
-> Note: This website does not contain `<div>` elements by the time I am writing this.
+{% note %}
+This website does not contain <code>&lt;div&gt;</code> elements by the time I am writing this.
+{% endnote  %}
 
 Some humans think that having no `<div>` means they have created an accessible website. No `<div>`, no issue. That is **wrong**. Instead, say this: no code, no issue.
 
@@ -69,7 +71,9 @@ For instance, the following HTML markup would be treated the same by assistive t
 </div>
 ```
 
-> Note: Don't use multiple `<h1>` in a page. You should only have one `<h1>` for each page.
+{% warning %}
+Don't use multiple <code>&lt;h1&gt;</code> in a page. You should only have one <code>&lt;h1&gt;</code> for each page.
+{% endwarning  %}
 
 Both are treated the same by those tools. Assistive technologies such as screen readers will not pronounce the `<div>` elements to the users. They only care about the semantic HTML. So, based on this example, they only care about the `<h1>`.
 
