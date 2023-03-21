@@ -219,7 +219,7 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .header-list {
@@ -228,7 +228,7 @@ header {
 }
 
 .header-list li {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 /**
@@ -242,7 +242,7 @@ header {
  */
 @supports (padding-inline: 2rem) {
   .header-list {
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .header-list li {
