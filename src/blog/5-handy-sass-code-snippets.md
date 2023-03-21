@@ -264,9 +264,3 @@ body {
 ## Conclusion
 
 I hope those things give your Sass more power. Let me know if you have any questions. Also, any feedback is appreciated!
-
-## Author
-
-- [GitHub - @vanzasetia](https://github.com/vanzasetia)
-- [LinkedIn - Vanza Setia](https://www.linkedin.com/in/vanzasetia/)
-- Want to see me on other platforms? [Check my linktree!](https://linktr.ee/vanzasetia)
