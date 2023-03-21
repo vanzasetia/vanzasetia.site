@@ -58,6 +58,6 @@ This website contains links to other websites. I am not responsible for your pri
 
 ## Accessibility statement
 
-I want this website to be accessible to as many people as possible. But, I can not guarantee that it will be accessible to you. I am not in a position to say that this is an accessible website. I am still new to web accessibility.
+I want this website to be accessible to as many people as possible.
 
-But, if you find any issues, then feel free to contact me through email. I will try my best to fix the issues. My email: [venusbumi2@gmail.com](mailto:venusbumi2@gmail.com)
+If you find any issues, then feel free to contact me through email. I will try my best to fix the issues. My email: [venusbumi2@gmail.com](mailto:venusbumi2@gmail.com)
