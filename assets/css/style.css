@@ -23,13 +23,10 @@
 }
 
 :root {
-  --light-black: #444;
   --black: #222;
   --white: #eee;
-  --very-light-black: #ccc;
   --background: var(--white);
   --foreground: var(--black);
-  --inline-code-background: var(--very-light-black);
   --outline-focus-color: var(--foreground);
   --step--2: clamp(0.69rem, calc(0.61rem + 0.37vw), 0.92rem);
   --step--1: clamp(0.83rem, calc(0.72rem + 0.52vw), 1.15rem);
@@ -45,7 +42,6 @@
   :root {
     --background: var(--black);
     --foreground: var(--white);
-    --inline-code-background: var(--light-black);
   }
 }
 
@@ -197,9 +193,7 @@ blockquote {
 
 code {
   font-family: monospace, monospace;
-  background-color: var(--inline-code-background);
   padding: 0.01em 0.2em;
-  border-radius: 0.2em;
 }
 
 pre {
@@ -207,7 +201,6 @@ pre {
   width: 100%;
   border: 0.3rem solid;
   padding: 1rem;
-  border-radius: 0.3rem;
   overflow-x: auto;
 }
 
