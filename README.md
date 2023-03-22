@@ -2,7 +2,7 @@
 
 I created this website to practice using this [Eleventy](https://www.11ty.dev/).
 
-You can see the full details about this project on the [about page](http://vanzasetia.netlify.app/about/).
+You can see the full details about this project on the [about page](https://vanzasetia.site/about/).
 
 ## Getting started
 
