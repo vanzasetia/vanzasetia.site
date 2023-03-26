@@ -30,6 +30,7 @@ You need to have some knowledge first before you can create something. This is a
 
 You can get a lot of information from watching experts talk about web development.
 
+- [How To Get Hired as a Web Developer & WOW Hiring Managers + much more | AMA with Matt Studdert - YouTube](https://www.youtube.com/watch?v=EVrijj32mAc) - In this video, Matt is answering some incredible questions. I like his answer for the "how do you choose what to focus on learning?". He said that you should just focus on the next thing. For me, that answer put my worries to rest.
 - [Selfish Accessibility | Adrian Roselli | Talks at Google - YouTube](https://www.youtube.com/watch?v=XMAksFzFh9E) - This is a great video to help you aware of web accessibility. Also, you will learn different situations of users that want to access the web. Plus, how to do manual testing to check the accessibility of your website. I highly recommend watching it.
 - [Manuel Matuzović - Lost in Translation - YouTube](https://www.youtube.com/watch?v=Wno1IhEBTxc) - HTML is not as easy as you think.
 - [Andy Bell – Be the browser’s mentor, not its micromanager - YouTube](https://www.youtube.com/watch?v=5uhIiI9Ld5M) - A great talk by Andy Bell that will tell you that good HTML markup can be a strong foundation for your website. Then, how to write modern CSS with progressive enhancement.
