@@ -344,12 +344,10 @@ footer p {
   --space: 1.25em;
   padding: 1.5rem;
   border: 0.3rem solid;
-  box-shadow: 0.5rem 0.5rem currentColor;
 }
 
 .home img {
   border: 0.3rem solid;
-  box-shadow: 0.3rem 0.3rem currentColor;
   max-width: 18.75rem;
   width: 100%;
 }
