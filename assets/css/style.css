@@ -76,6 +76,7 @@ body {
 
 body > * + * {
   margin-top: 7rem;
+  margin-top: clamp(5rem, calc(4.37rem + 3.17vw), 7rem);
 }
 
 a {
@@ -231,6 +232,7 @@ header {
   align-items: center;
   gap: 1rem;
   padding-top: 3rem;
+  padding-top: clamp(1.5rem, calc(1.02rem + 2.38vw), 3rem);
 }
 
 .header-list {
@@ -275,6 +277,7 @@ header [href="/"] {
 
 footer {
   padding-bottom: 3rem;
+  padding-bottom: clamp(1.5rem, calc(1.02rem + 2.38vw), 3rem);
 }
 
 footer p {
