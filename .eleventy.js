@@ -8,19 +8,21 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const recentChanges = require("eleventy-plugin-recent-changes");
 const htmlmin = require("html-minifier");
+const imagePlugin = require("./eleventy.config.images.js");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "./assets/fonts": "/fonts",
-    "./assets/images": "/images",
     "./assets/favicons": "/favicons",
     "./assets/favicons/favicon.ico": "/favicon.ico",
     "./src/manifest.json": "/manifest.json",
     "./src/robots.txt": "/robots.txt"
   });
 
+  eleventyConfig.addWatchTarget("src/**/*.{svg,webp,png,jpeg}");
   eleventyConfig.addWatchTarget("./assets/css/*.css");
 
+  eleventyConfig.addPlugin(imagePlugin);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPlugin(pluginBundle);

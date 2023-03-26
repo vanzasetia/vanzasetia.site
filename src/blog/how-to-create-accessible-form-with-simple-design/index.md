@@ -89,7 +89,7 @@ Let's turn that pseudocode into real code.
 
 That HTML code gives the following result.
 
-![Accessible form page without styling](/images/unstyled-form.jpg)
+{% image "./unstyled-form.jpg", "Accessible form page without styling" %}
 
 The site gets the browser's default styling and we can understand the site.
 
