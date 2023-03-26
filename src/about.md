@@ -1,63 +1,39 @@
 ---
 layout: layouts/general.njk
-title: About This Website
+title: About Me
 description:
-  I made this website to try and learn how to maintain a simple blog post
-  website. I am also learning to use Eleventy to build this website.
+  I am ranked among the top 10 developers out of 500K+ developers with 30+ projects under my belt at Frontend Mentor.
 eleventyNavigation:
   key: About
-  title: About This Website
+  title: About Me
 ---
 
-## History
+Over the past two years, I have done the following:
 
-When I first started this project on March 11, 2023, I just wanted to try the idea of having my own blog. It turned out that I was getting more serious about it. Then I decided to to make it as good as possible with HTML and CSS.
+- Developed over 30 responsive websites with accessibility in mind
+- Gave 1300+ code reviews and discovered that 83% of them were helpful
+- Got as much feedback as possible from the expert at Frontend Mentor
+- Worked on a local community's website to fix accessibility issues
 
-After that I tried to use Eleventy. I started playing with it for a day. I tried creating an RSS feed. I tried moving all my blog posts from CodeNewbie to this website—luckily I don't have many blog posts.
+I am interested in:
 
-After spending three days creating this website, I decided to put it on the internet.
+- Web accessibility
+- Responsive design
+- Progressive enhancement
+- Web performance
 
-## Design
+I love applying my skills to help companies create a website that can be accessed by different types of users and tools. As a result, the company's website will have more engagement and rank higher in search results.
 
-I am not a designer. But, I try my best to make sure that this website is not looking very bad.
+## Volunteer
 
-### Font family
+*December 2022 - Jan 2023*
 
-I use the Noto Sans font family for the body text and headings. For the logo, I use the Miriam Libre font family.
+I was working as a web developer to fix five accessibility issues on a WordPress site.
 
-For the Noto Sans font family, I use the regular and bold font weights. For the other one, I use the bold font weight. Those are the custom fonts that I use for this website.
+- Increased the color contrast of the links inside the footer
+- Added a missing heading
+- Made the headings in a logical order
+- Created another webpage to provide alternative text for an image that has much text on it
+- Changed the website's language to the correct language—switched from "en-US" to "id"
 
-You can find them on the Google Fonts website.
-
-- [Noto Sans - Google Fonts](https://fonts.google.com/noto/specimen/Noto+Sans)
-- [Miriam Libre - Google Fonts](https://fonts.google.com/specimen/Miriam+Libre)
-
-For the code snippet, I use the browser's default monospace font family.
-
-### Colors
-
-I use black and white colors. I like dark mode. So I decided to make the black as the background color and white as the text color.
-
-Here are the list of the colors that I use:
-
-- Background color: `#222`
-- Text color and border color: `#eee`
-
-I also provide a light mode version for this website. Here is the list of the colors:
-
-- Background color: `#eee`
-- Text color and border color: `#222`
-
-## Privacy policy
-
-I do not collect any of your information. I do not put any kind of trackers and cookies.
-
-### Links to other websites
-
-This website contains links to other websites. I am not responsible for your privacy when you are outside of this website.
-
-## Accessibility statement
-
-I want this website to be accessible to as many people as possible.
-
-If you find any issues, then feel free to contact me through email. I will try my best to fix the issues. My email: [venusbumi2@gmail.com](mailto:venusbumi2@gmail.com)
+The website that I was fixing: [Keuskupan Tanjungkarang - Situs Resmi Keuskupan Tanjungkarang](https://keuskupantanjungkarang.org/)
