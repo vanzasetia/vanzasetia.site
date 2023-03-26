@@ -1,8 +1,6 @@
 # Personal Website of Vanza Setia
 
-I created this website to practice using this [Eleventy](https://www.11ty.dev/).
-
-You can see the full details about this project on the [about page](https://vanzasetia.site/about/).
+I created this website using [Eleventy](https://www.11ty.dev/).
 
 ## Getting started
 
