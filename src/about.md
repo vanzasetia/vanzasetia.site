@@ -6,6 +6,7 @@ description:
 eleventyNavigation:
   key: About
   title: About Me
+  order: 1
 ---
 
 Over the past two years, I have done the following:

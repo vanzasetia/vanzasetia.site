@@ -4,6 +4,7 @@ title: Resources
 description: This page contains a wide range of resources that I found useful.
 eleventyNavigation:
   key: Resources
+  order: 2
 tableOfContents: true
 ---
 
