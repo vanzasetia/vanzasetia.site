@@ -2,6 +2,7 @@
 title: 5 Handy Sass Code Snippets
 date: 2022-10-12
 dateModified: 2023-03-21
+copyDescription: false
 ---
 
 ## Disclaimer

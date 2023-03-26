@@ -5,9 +5,7 @@ layout: layouts/base.njk
 <main id="main" class="flow" tabindex="-1">
   <h1>{{ title }}</h1>
   {% include "blog/date.njk" %}
-  {% if description %}
-    <p>{{ description }}</p>    
-  {% endif %}
+  {% include "description.njk" %}
   {% include "toc.njk" %}
   {{ content | safe }}
 </main>
