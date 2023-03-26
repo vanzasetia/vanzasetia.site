@@ -1,0 +1,20 @@
+{% set id = project.title | slugify %}
+<div class="card flow">
+  <h3>
+    <a href="{{ project.live }}">{{ project.title }}</a>
+  </h3>
+  {% for description in project.descriptions %}
+    <p>{{ description }}</p>
+  {% endfor %}
+  <p>
+    <a
+      href="{{ project.source }}"
+      aria-labelledby="{{ id }}-source-code"
+    >
+      <span id="{{ id }}-source-code" hidden>
+        {{ project.title }} - view the source code
+      </span>
+      <span aria-hidden="true">View the source code</span>
+    </a>
+  </p>
+</div>

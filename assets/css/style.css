@@ -70,7 +70,7 @@ body {
   font-family: "Noto Sans", sans-serif;
   background-color: var(--background);
   color: var(--foreground);
-  padding: 3rem 1rem;
+  padding: 0 1rem;
   font-size: calc(1rem + 0.5vw);
 }
 
@@ -80,6 +80,11 @@ body > * + * {
 
 a {
   text-underline-offset: 0.3em;
+}
+
+h2 a,
+h3 a {
+  line-height: 1.6;
 }
 
 [href="#main"] {
@@ -127,6 +132,7 @@ h3 {
   }
 }
 
+picture,
 img {
   display: block;
   max-width: 100%;
@@ -153,14 +159,6 @@ main,
 footer {
   margin-right: auto;
   margin-left: auto;
-}
-
-header {
-  max-width: 80ch;
-}
-
-main,
-footer {
   max-width: 60ch;
 }
 
@@ -210,12 +208,29 @@ pre code {
   margin-top: var(--space, 1.25em);
 }
 
+h1,
+h2,
+h3 {
+  --space: 1.75em;
+}
+
+h1 + *,
+h2 + *,
+h3 + * {
+  --space: 0.75em;
+}
+
+nav[aria-labelledby="table-of-contents"] {
+  margin-top: 3em;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   gap: 1rem;
+  padding-top: 3rem;
 }
 
 .header-list {
@@ -258,6 +273,10 @@ header [href="/"] {
   font-weight: 700;
 }
 
+footer {
+  padding-bottom: 3rem;
+}
+
 footer p {
   max-width: 50ch;
 }
@@ -284,7 +303,6 @@ footer p {
 .time {
   font-style: italic;
   font-size: 0.9em;
-  margin-top: 0.5em;
 }
 
 .note {
@@ -305,4 +323,33 @@ footer p {
 .note svg {
   width: 2.5rem;
   height: 2.5rem;
+}
+
+.home h2 {
+  --space: 3em;
+}
+
+.cta {
+  display: inline-block;
+  padding: 1rem 1rem;
+  border: 0.3rem solid;
+  font-weight: 700;
+}
+
+.projects {
+  --space: 2em;
+}
+
+.card {
+  --space: 1.25em;
+  padding: 1.5rem;
+  border: 0.3rem solid;
+  box-shadow: 0.5rem 0.5rem currentColor;
+}
+
+.home img {
+  border: 0.3rem solid;
+  box-shadow: 0.3rem 0.3rem currentColor;
+  max-width: 18.75rem;
+  width: 100%;
 }

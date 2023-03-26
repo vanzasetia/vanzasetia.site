@@ -4,14 +4,76 @@ title: Greetings! You Have Accessed Vanza Setia’s Website.
 numberOfLatestBlogsToShow: 5
 ---
 
-<main id="main" class="flow" tabindex="-1">
-  <h1>Blog Posts</h1>
+<main id="main" class="home flow" tabindex="-1">
+  <h1>
+    Craft Your Website with a Frontend Developer Who Cares about Accessibility
+  </h1>
   <p>
-    {{ metadata.description }}
+    I build fast and accessible websites using modern best practices. I have
+    created over 30 projects and become a top 10 developer on Frontend Mentor.
   </p>
   <p>
-    Below are five of my latest blog posts.
+    <a href="#meet-the-developer" class="cta">
+      Let's build amazing websites together
+    </a>
   </p>
+  <h2>Showcase of my top projects</h2>
+  <p>Here are my best projects that will give you a feel about my skill.</p>
+  <div class="projects flow">
+    {% for project in projects %}
+      {% include "card.njk" %}
+    {% endfor %}
+  </div>
+  {% note %} All of the designs are from
+  <a href="https://www.frontendmentor.io/"
+    >Frontend Mentor | Front-end coding challenges using a real-life workflow</a
+  >. {% endnote %}
+  <h2>Help people to get better at coding</h2>
+  <p>
+    I have given over 1500 suggestions on Frontend Mentor to help developers
+    gain knowledge and improve their skills. I want developers to be aware that
+    accessibility should be the default choice when developing websites.
+  </p>
+  <p>
+    You can see my written communication style by reading my suggestions. This
+    way you can get a glimpse of my personality.
+  </p>
+  <p>
+    <a href="https://frontendmentor.io/profile/vanzasetia/comments" class="cta">
+      See the suggestions that I give to developers
+    </a>
+  </p>
+  <h2 id="meet-the-developer" tabindex="-1">
+    Meet the developer
+  </h2>
+  {% image "../assets/images/vanzasetia.jpg", "Vanza Setia" %}
+  <p><strong>Need a frontend developer? Look no further!</strong></p>
+  <p>
+    I help people to create websites and my approach is different because I make
+    sure that they are fast and accessible with assistive technologies.
+  </p>
+  <p>
+    I am looking for a full time frontend developer for a junior level position.
+    But, I am open to all kinds of opportunities. <a href="/about/">Learn more about me</a>.
+  </p>
+  <p>
+    Hire me, a frontend developer who cares about accessibility for your
+    website.
+  </p>
+  <p>
+    <a href="https://www.linkedin.com/in/vanzasetia/" class="cta">
+      Chat with me on LinkedIn
+    </a>
+  </p>
+  <p>
+    <a href="mailto:venusbumi2@gmail.com">Or contact me through email</a>
+  </p>
+  <h2>Blog Posts</h2>
+  <p>
+    I write about web accessibility, my learning experiences, and other things
+    related to frontend web development.
+  </p>
+  <p>Below are five of my latest blog posts.</p>
   {% set bloglist = collections.blog | head(-1 * numberOfLatestBlogsToShow) %}
   {% include "blog/list.njk" %}
 </main>
