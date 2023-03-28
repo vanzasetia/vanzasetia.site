@@ -6,6 +6,7 @@ eleventyNavigation:
   key: Resources
   order: 2
 tableOfContents: true
+date: 2023-03-28
 ---
 
 ## Knowledge
@@ -87,3 +88,10 @@ Tired of coding? Why don't you try playing some of these games to relax?
 - [Anuken/Mindustry: The automation tower defense RTS](https://github.com/Anuken/Mindustry) - An interesting tower defense where you have to gather resources and defense your base.
 - [agateau/pixelwheels: A top-down retro racing game for PC (Linux, macOS, Windows) and Android.](https://github.com/agateau/pixelwheels) - A great racing game with a simple controller and running smoothly on my low-end device. No in-app purchase. Meaning you can get all the cars by playing the game.
 - [mjaun/android-anuto: Another ugly tower defense for Android](https://github.com/mjaun/android-anuto) - I think it has a simple and good graphic. It has a small file size, only 6MB.
+
+<p class="time">
+  Last updated on
+  <time datetime="{{ page.date | htmlDateString }}"
+    >{{ page.date | readableDate }}</time
+  >.
+</p>
