@@ -1,6 +1,7 @@
 ---
 title: I Like Web Clubs
 date: 2023-03-28
+dateModified: 2023-03-29
 tableOfContents: false
 copyDescription: false
 ---
@@ -70,3 +71,23 @@ I have an idea for a new web club. How about a "No Image Club"? I think that is 
 The author can say that the club exists because of the bloated stock photos that serve no purpose.
 
 Anyway, those are the web clubs that I know for now. You can [send me an email](mailto:venusbumi2@gmail.com) if you know other web clubs. I will add it to the list.
+
+## Update: 29 March 2023
+
+I discover more web clubs.
+
+### 10KB Club
+
+I was wrong when I said 250KB Club is the smallest type of page-weight web club.
+
+This is the smallest type of page-weight web club.
+
+[10 KB Club](https://10kbclub.com/)
+
+### RSS Club
+
+If your website has an RSS feed, you can join this club.
+
+Thank you [Fabian Holzer](https://holzer.online/) for telling me about this club!
+
+[RSS Club - daverupert.com](https://daverupert.com/rss-club/)
