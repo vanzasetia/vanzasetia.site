@@ -27,6 +27,7 @@ You need to have some knowledge first before you can create something. This is a
 - [Posts - The A11Y Project](https://www.a11yproject.com/posts/) - The A11Y Project has a lot of amazing blog posts about web accessibility. I also recommend checking the resources page — [Resources - The A11Y Project](https://www.a11yproject.com/resources/).
 - [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) - The WCAG is a set of technical standards developed by the World Wide Web Consortium (W3C) to provide guidelines for making web content accessible to users with disabilities.
 - [Understanding WCAG 2.1 | WAI | W3C](https://www.w3.org/WAI/WCAG21/Understanding/) - This is a much more friendly user interface for WCAG. I like to use this page as a reference.
+- [Colour Blind Awareness](https://www.colourblindawareness.org/) - You can learn about different types of color blindness.
 
 ## Videos
 
