@@ -9,6 +9,8 @@ const markdownItAnchor = require("markdown-it-anchor");
 const recentChanges = require("eleventy-plugin-recent-changes");
 const htmlmin = require("html-minifier");
 const imagePlugin = require("./eleventy.config.images.js");
+const Webmentions = require("eleventy-plugin-webmentions");
+const dotenv = require("dotenv").config();
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
@@ -43,6 +45,11 @@ module.exports = function (eleventyConfig) {
     listElement: "ul",
     minLevel: 2,
     maxLevel: 3
+  });
+
+  eleventyConfig.addPlugin(Webmentions, {
+    domain: "vanzasetia.site",
+    token: process.env.TOKEN_API
   });
 
   eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {

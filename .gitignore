@@ -2,3 +2,5 @@ node_modules
 _draft
 _site
 *.git
+.env
+_webmentioncache
