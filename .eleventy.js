@@ -10,7 +10,7 @@ const recentChanges = require("eleventy-plugin-recent-changes");
 const htmlmin = require("html-minifier");
 const imagePlugin = require("./eleventy.config.images.js");
 const Webmentions = require("eleventy-plugin-webmentions");
-const dotenv = require("dotenv").config();
+const dotenv = require("dotenv");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
@@ -46,6 +46,9 @@ module.exports = function (eleventyConfig) {
     minLevel: 2,
     maxLevel: 3
   });
+
+  // Exposing the environment variable
+  dotenv.config();
 
   eleventyConfig.addPlugin(Webmentions, {
     domain: "vanzasetia.site",
