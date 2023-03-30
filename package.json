@@ -4,7 +4,7 @@
   "scripts": {
     "build": "eleventy",
     "start": "eleventy --serve --quiet --incremental",
-    "clean": "rimraf _site",
+    "clean": "rimraf _site _webmentioncache",
     "check-links": "check-html-links _site"
   },
   "devDependencies": {
