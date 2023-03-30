@@ -6,7 +6,7 @@ eleventyNavigation:
   key: Resources
   order: 2
 tableOfContents: true
-date: Last Modified
+date: 2023-03-29
 ---
 
 ## Knowledge
