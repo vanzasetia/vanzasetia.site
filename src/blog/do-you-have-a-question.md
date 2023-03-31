@@ -39,7 +39,7 @@ Well, not so fast.
 
 ## Can I use container queries?
 
-By the time I am writing this, container queries get supported in Chrome, Edge, and Opera behind the flags. In other words, it should not be used for production yet.
+By the time I am writing this, container queries only get supported in Chrome, Edge, and Opera behind the flags. In other words, it should not be used for production yet.
 
 How do I know that? You can find the answer by accessing the following website.
 
@@ -63,8 +63,6 @@ The websites in this section are a bit different. They give you a statement inst
 
 ### You might not need JavaScript
 
-I do not need to use JavaScript if my website does not have interactivity or dynamic kinds of stuff.
-
 The following website does not cover things like:
 
 - You do not need JavaScript if you are building a static blog post
@@ -77,7 +75,7 @@ It covers things that you can build with HTML and CSS only. But, I do not recomm
 
 ### You might not need jQuery
 
-Modern JavaScript is amazing. The fact that modern browsers support ECMAScript 2015 (ES6), makes writing modern JavaScript completely acceptatble. It is also much more fun to write modern syntax than the old one.
+Modern JavaScript is amazing. The fact that modern browsers support ECMAScript 2015 (ES6), makes writing modern JavaScript completely acceptable. It is also much more fun to write modern syntax than the old one.
 
 For example, the arrow function makes writing functions simpler.
 
@@ -104,3 +102,7 @@ You can see the collections of "You might not need" websites.
 [You Might Not Need *](https://youmightnotneed.com/)
 
 [you-dont-need/You-Dont-Need: People choose popular projects, often not because it applies to their problems](https://github.com/you-dont-need/You-Dont-Need)
+
+## Still do not get the answer to your question?
+
+Good luck with finding the answer. Or ask yourself, *"Does your question need an answer?"*
