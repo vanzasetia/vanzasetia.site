@@ -24,7 +24,7 @@
 
 :root {
   --black: #222;
-  --white: #eee;
+  --white: #ddd;
   --background: var(--white);
   --foreground: var(--black);
   --outline-focus-color: var(--foreground);
