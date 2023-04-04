@@ -6,7 +6,7 @@ eleventyNavigation:
   key: Resources
   order: 2
 tableOfContents: true
-date: 2023-03-29
+date: 2023-04-04
 ---
 
 ## Knowledge
@@ -65,6 +65,7 @@ You can make your development process better and quicker by using these tools.
 - [Caninclude](https://caninclude.glitch.me/) - If you get confused about whether `<a>` is valid to be a child element of the `<code>` element, then you can use this tool to verify that.
 - [Can I use... Support tables for HTML5, CSS3, etc](https://caniuse.com/) - Check the browser's compatibility with the features that you want to use.
 - [Accessibility Support](https://a11ysupport.io/) - Check the compatibility of screen readers with the ARIA attributes you want to use.
+- [Mailtolink.me | The Mailto Link Generator](https://mailtolink.me/) - Generate a `mailto` link easily.
 
 ## Screen Readers
 
