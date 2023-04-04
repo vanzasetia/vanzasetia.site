@@ -246,6 +246,10 @@ footer p {
   max-width: 50ch;
 }
 
+footer h2 {
+  --space: 1.25em;
+}
+
 .footer-list {
   display: flex;
   flex-wrap: wrap;
@@ -297,6 +301,15 @@ footer p {
   width: 100%;
 }
 
+.body-font-size-larger {
+  font-size: calc(1rem + 0.7vw);
+}
+
+.text-transform-uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+}
+
 @supports (font-size: clamp(1rem, calc(0.82rem + 0.8vw), 1.5rem)) {
   body {
     font-size: var(--step-0);
@@ -324,6 +337,10 @@ footer p {
 
   footer {
     padding-bottom: clamp(1.5rem, calc(0.96rem + 2.39vw), 3rem);
+  }
+
+  .body-font-size-larger {
+    font-size: var(--step-1);
   }
 }
 
