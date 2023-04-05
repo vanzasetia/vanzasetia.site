@@ -3,6 +3,7 @@ title: "Zeish: A Privacy-Friendly Word Counter (Plus More!)"
 date: 2023-04-02
 copyDescription: false
 tableOfContents: false
+generatedByAI: true
 ---
 
 Zeish is a free, open-source, and lightweight word counter that is good for anyone who needs to quickly count words, characters, and lines. With a **page weight of 3.5KB (Kilobyte)**, it **works as a Progressive Web Application (PWA)**, so you can use it even when you are offline.

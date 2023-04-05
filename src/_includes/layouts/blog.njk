@@ -8,4 +8,18 @@ layout: layouts/base.njk
   {% include "description.njk" %}
   {% include "toc.njk" %}
   {{ content | safe }}
+  {% if generatedByAI === false %}
+  <hr>
+  <aside class="flow" aria-labelledby="written-by-human-not-ai">
+    <picture>
+      <source srcset="/svg/written-by-human-not-by-ai-badge-black.svg 264w"  media="screen and (prefers-color-scheme: dark)" />
+      <img id="written-by-human-not-ai" src="/svg/written-by-human-not-by-ai-badge-white.svg" alt="Smile emoji. Written by human not by AI." width="264" height="84" loading="lazy" decoding="async">
+    </picture>
+    <p>
+      <a href="https://notbyai.fyi/">
+        Not By AI — Add the 'Not By AI' Badge to Your Creative Work
+      </a>
+    </p>
+  </aside>
+  {% endif %}
 </main>

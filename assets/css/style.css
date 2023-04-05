@@ -188,6 +188,13 @@ pre code {
   border-radius: 0;
 }
 
+hr {
+  --space: 3em;
+  box-sizing: content-box;
+  color: inherit;
+  height: 0;
+}
+
 .flow > * + * {
   margin-top: var(--space, 1.25em);
 }
