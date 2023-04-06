@@ -96,7 +96,12 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addTransform("htmlmin", function (content) {
-    if (this.page.outputPath && this.page.outputPath.endsWith(".html")) {
+    const developmentState = process.env.DEVELOPMENT;
+    if (
+      this.page.outputPath &&
+      this.page.outputPath.endsWith(".html") &&
+      !developmentState
+    ) {
       let minified = htmlmin.minify(content, {
         removeComments: true,
         collapseWhitespace: true

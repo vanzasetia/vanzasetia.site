@@ -1,11 +1,19 @@
-{% set url %}{% if page.url == "/" %}{{ metadata.url }}{% else %}{{ metadata.url}}{{ page.url }}{% endif %}{% endset %}
+{% set url %}
+  {% if page.url == "/" %}
+      {{ metadata.url }}
+    {% else %}
+      {{  metadata.url }}{{ page.url }}
+  {% endif %}
+{% endset %}
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{% if page.url == "/" %}{{ title }}{% else %}{{ title }} — Vanza Setia{% endif %}</title>
+    <title>
+      {% if page.url == "/" %}{{ title }}{% else %}{{ title }} — Vanza Setia{% endif %}
+    </title>
     {% css %}{% include "assets/css/style.min.css" %}{% endcss %}
     <style>
       {% getBundle "css" %}
@@ -22,30 +30,55 @@
       type="application/json"
       title="{{ metadata.title }}"
     />
-    {% if blog %}
-      {% include "schema.njk" %}
-    {% endif %}
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#222222">
-    <meta name="msapplication-config" content="/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#222222">
-    <meta name="description" content="{{ description or metadata.description }}" />
+    {% if blog %} {% include "schema.njk" %} {% endif %}
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#222222" />
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
+    <meta name="theme-color" content="#222222" />
+    <meta
+      name="description"
+      content="{{ description or metadata.description }}"
+    />
     <meta name="url" content="{{ url }}" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ title or metadata.title }}" />
     <meta property="og:site_name" content="Vanza Setia" />
-    <meta property="og:description" content="{{ description or metadata.description }}" />
+    <meta
+      property="og:description"
+      content="{{ description or metadata.description }}"
+    />
     <meta property="og:url" content="{{ url }}" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:creator" content="@vanzasetia" />
     <link rel="canonical" href="{{ metadata.url }}" />
-    <link href="https://github.com/vanzasetia" rel="me">
-    <link rel="webmention" href="https://webmention.io/vanzasetia.site/webmention" />
+    <link href="https://github.com/vanzasetia" rel="me" />
+    <link
+      rel="webmention"
+      href="https://webmention.io/vanzasetia.site/webmention"
+    />
     <link rel="pingback" href="https://webmention.io/vanzasetia.site/xmlrpc" />
   </head>
   <body>

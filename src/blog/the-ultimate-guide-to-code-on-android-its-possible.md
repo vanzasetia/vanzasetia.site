@@ -484,7 +484,7 @@ Keep in mind, that the URL should always end with `.html` or else it will say th
 
 All the resources are in the GitHub repo, which you can check to keep up to date with the latest tools to code on Android.
 
-## Too long; didn’t read <a name="tldr"></a>
+## Too long; didn’t read
 
 [(Back to top)](#table-of-contents)
 
