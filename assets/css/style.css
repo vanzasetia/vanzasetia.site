@@ -75,7 +75,12 @@ body > * + * {
   margin-top: 7rem;
 }
 
+/**
+ * 1. Set consistent underline thickness across
+ *    all browsers.
+ */
 a {
+  text-decoration-thickness: 0.1em; /* 1 */
   text-underline-offset: 0.3em;
 }
 
