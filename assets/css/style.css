@@ -124,7 +124,6 @@ svg {
 }
 
 svg {
-  stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
 }
@@ -283,11 +282,6 @@ footer h2 {
 
 .note p {
   margin-top: 0.8rem;
-}
-
-.note svg {
-  width: 2.5rem;
-  height: 2.5rem;
 }
 
 .cta {

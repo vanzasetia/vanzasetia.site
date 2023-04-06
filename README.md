@@ -85,6 +85,8 @@ I created this website using Eleventy. Before I knew about it, I thought it woul
 
 This `README` is inspired by the following article—[How To README · Matthias Ott – User Experience Designer](https://matthiasott.com/notes/how-to-readme).
 
+Icons are coming from [Atlas Icons](https://atlasicons.vectopus.com/) with 45px in size and bold stroke settings.
+
 ## License
 
 [GNU AGPLv3](./LICENSE)
