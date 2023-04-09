@@ -9,12 +9,19 @@ eleventyNavigation:
   order: 1
 ---
 
+## Two years of extensive learning experience
+
 Over the past two years, I have done the following:
 
 - Developed over 30 responsive websites with accessibility in mind
 - Gave 1300+ code reviews and discovered that 83% of them were helpful
 - Got as much feedback as possible from the expert at Frontend Mentor
-- Worked on a local community's website to fix accessibility issues
+
+You can check out all of them on my Frontend Mentor profile.
+
+[Frontend Mentor | Vanza Setia's profile](https://www.frontendmentor.io/profile/vanzasetia)
+
+## Interest
 
 I am interested in:
 
