@@ -1,7 +1,7 @@
 ---
 title: I Like Web Clubs
 date: 2023-03-28
-dateModified: 2023-03-29
+dateModified: 2023-04-17
 tableOfContents: false
 copyDescription: false
 ---
@@ -91,3 +91,15 @@ If your website has an RSS feed, you can join this club.
 Thank you [Fabian Holzer](https://holzer.online/) for telling me about this club!
 
 [RSS Club - daverupert.com](https://daverupert.com/rss-club/)
+
+## Update: 17 April 2023
+
+I find a new web club.
+
+### 1KB Club
+
+I was wrong again when I said 10KB Club is the smallest type of page-weight web club.
+
+This is the smallest type of page-weight web club. Over 20 websites have already joined the club.
+
+[1KB Club](https://1kb.club/)
