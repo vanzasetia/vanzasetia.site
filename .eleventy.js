@@ -78,7 +78,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addPairedShortcode("note", (content) => {
-    return `<aside aria-label="note" class="note">
+    return `<aside aria-label="Note" class="note">
       <div>
         <svg width="50" height="50" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><defs><style>.cls-62{fill:none;}</style></defs><circle cx="12" cy="12" r="10.5" class="cls-62"/><path d="M12 16.77v-6.68h-1.91m0 6.68h3.82m-2.86-9.54h1.9" class="cls-62"/></svg>
         <p>${content}</p>
@@ -87,7 +87,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addPairedShortcode("warning", (content) => {
-    return `<aside aria-label="warning" class="note">
+    return `<aside aria-label="Warning" class="note">
       <div>
         <svg width="50" height="50" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><defs><style>.cls-63{fill:none;}</style></defs><path d="M12.13 3.41h-.26a1.48 1.48 0 0 0-1.26.7L1.73 18.32a1.48 1.48 0 0 0-.23.79A1.48 1.48 0 0 0 3 20.59h18a1.48 1.48 0 0 0 1.48-1.48 1.48 1.48 0 0 0-.23-.79L13.39 4.11a1.48 1.48 0 0 0-1.26-.7ZM12 8.18v5.73M12 15.82v1.91" class="cls-63"/></svg>
         <p>${content}</p>
