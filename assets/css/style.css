@@ -215,6 +215,14 @@ h3 + * {
   --space: 0.75em;
 }
 
+dt {
+  font-weight: 700;
+}
+
+dd {
+  margin-left: 1.25em;
+}
+
 nav[aria-labelledby="table-of-contents"] {
   margin-top: 3em;
 }
