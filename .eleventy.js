@@ -51,10 +51,10 @@ module.exports = function (eleventyConfig) {
   // Exposing the environment variable
   dotenv.config();
 
-  eleventyConfig.addPlugin(Webmentions, {
-    domain: "vanzasetia.site",
-    token: process.env.TOKEN_API
-  });
+  // eleventyConfig.addPlugin(Webmentions, {
+  //   domain: "vanzasetia.site",
+  //   token: process.env.TOKEN_API
+  // });
 
   eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
     return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(
