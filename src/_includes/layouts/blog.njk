@@ -8,6 +8,28 @@ layout: layouts/base.njk
   {% include "description.njk" %}
   {% include "toc.njk" %}
   {{ content | safe }}
+  {% set postMentions = webmentions | webmentionsForPage %}
+  {% if (postMentions.total !== 0) %}
+  <hr>
+  <aside class="flow" aria-labelledby="landmark-mentions">
+  <h2 id="landmark-mentions">Mentions</h2>
+  <p>Powered by <a href="https://webmention.io/">Webmention.io</a>.</p>
+  {% asyncEach mention in postMentions.comments %}
+    <div class="card flow">
+      <h3 class="body-font-size-larger">
+        {% if mention.author %}
+          <a href="{{ mention.author.url }}">
+            {{ mention.author.name }}
+          </a>
+          {% else %}
+          Anonymous
+        {% endif %}
+      </h3>
+      <p>{{ mention.content.value | safe }}</p>
+    </div>
+  {% endeach %}
+  </aside>
+  {% endif %}
   {% if generatedByAI === false %}
   <hr>
   <aside class="flow" aria-labelledby="written-by-human-not-ai">

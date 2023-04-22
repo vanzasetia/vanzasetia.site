@@ -53,7 +53,8 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(Webmentions, {
     domain: "vanzasetia.site",
-    token: process.env.TOKEN_API
+    token: process.env.TOKEN_API,
+    htmlContent: false
   });
 
   eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
