@@ -27,7 +27,6 @@
   --white: #ddd;
   --background: var(--white);
   --foreground: var(--black);
-  --outline-focus-color: var(--foreground);
   --step-0: clamp(1rem, calc(0.82rem + 0.8vw), 1.5rem);
   --step-1: clamp(1.2rem, calc(0.96rem + 1.07vw), 1.88rem);
   --step-2: clamp(1.44rem, calc(1.12rem + 1.44vw), 2.34rem);
@@ -49,10 +48,11 @@
   margin: 0;
   padding: 0;
   color: inherit;
+  background-color: inherit;
 }
 
 :focus {
-  outline: 0.3rem solid var(--outline-focus-color);
+  outline: 0.3rem solid;
   outline-offset: 0.1em;
 }
 
@@ -61,6 +61,7 @@
 }
 
 body {
+  --landmark-space: 7rem;
   min-height: 100vh;
   line-height: 1.6;
   text-rendering: optimizeSpeed;
@@ -72,7 +73,7 @@ body {
 }
 
 body > * + * {
-  margin-top: 7rem;
+  margin-top: var(--landmark-space);
 }
 
 /**
@@ -101,6 +102,7 @@ h3 a {
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
   padding: 1rem;
+  outline-color: var(--foreground);
 }
 
 [href="#main"]:focus {
@@ -145,20 +147,32 @@ footer {
   max-width: 60ch;
 }
 
-ul[class] {
-  list-style: none;
+header,
+footer {
+  --page-block-space: 3rem;
 }
 
-ul:not([class]) {
+header ul,
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+}
+
+ul {
   padding-left: 1.25em;
 }
 
-ul:not([class]) li + li {
+ul > ul,
+ul > li + li {
   margin-top: 0.6rem;
 }
 
-ul:not([class]) ul {
-  margin-top: 0.6rem;
+header ul li,
+footer ul li {
+  margin-top: 0;
+  padding: 0.5rem;
 }
 
 blockquote {
@@ -170,7 +184,6 @@ blockquote {
 
 kbd,
 code {
-  font-family: monospace, monospace;
   padding: 0.01em 0.2em;
 }
 
@@ -187,7 +200,6 @@ pre {
 }
 
 pre code {
-  background-color: transparent;
   padding: 0;
   border-radius: 0;
 }
@@ -225,16 +237,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   gap: 1rem;
-  padding-top: 3rem;
-}
-
-.header-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.header-list li {
-  padding: 0.5rem;
+  padding-top: var(--page-block-space);
 }
 
 header [href="/"] {
@@ -250,7 +253,7 @@ header [href="/"] {
 }
 
 footer {
-  padding-bottom: 3rem;
+  padding-bottom: var(--page-block-space);
 }
 
 footer p {
@@ -259,15 +262,6 @@ footer p {
 
 footer h2 {
   --space: 1.25em;
-}
-
-.footer-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.footer-list li {
-  padding: 0.5rem;
 }
 
 .time {
@@ -291,7 +285,7 @@ footer h2 {
 
 .cta {
   display: inline-block;
-  padding: 1rem 1rem;
+  padding: 1rem;
   border: 0.3rem solid;
   font-weight: 700;
 }
@@ -333,16 +327,13 @@ footer h2 {
     font-size: var(--step-2);
   }
 
-  body > * + * {
-    margin-top: clamp(5rem, calc(4.28rem + 3.18vw), 7rem);
+  body {
+    --landmark-space: clamp(5rem, calc(4.28rem + 3.18vw), 7rem);
   }
 
-  header {
-    padding-top: clamp(1.5rem, calc(0.96rem + 2.39vw), 3rem);
-  }
-
+  header,
   footer {
-    padding-bottom: clamp(1.5rem, calc(0.96rem + 2.39vw), 3rem);
+    --page-block-space: clamp(1.5rem, calc(0.96rem + 2.39vw), 3rem);
   }
 
   .body-font-size-larger {
@@ -360,19 +351,13 @@ footer h2 {
  * - https://caniuse.com/mdn-css_properties_padding-inline
  */
 @supports (padding-inline: 2rem) {
-  .header-list {
+  header ul,
+  footer ul {
     gap: 1rem;
   }
 
-  .header-list li {
-    padding: 0;
-  }
-
-  .footer-list {
-    gap: 1rem;
-  }
-
-  .footer-list li {
+  header ul li,
+  footer ul li {
     padding: 0;
   }
 }
