@@ -23,10 +23,10 @@
 }
 
 :root {
-  --black: #222;
-  --white: #ddd;
-  --background: var(--white);
-  --foreground: var(--black);
+  --dark: #222;
+  --light: #ddd;
+  --background: var(--light);
+  --foreground: var(--dark);
   --step-0: clamp(1rem, calc(0.82rem + 0.8vw), 1.5rem);
   --step-1: clamp(1.2rem, calc(0.96rem + 1.07vw), 1.88rem);
   --step-2: clamp(1.44rem, calc(1.12rem + 1.44vw), 2.34rem);
@@ -36,8 +36,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: var(--black);
-    --foreground: var(--white);
+    --background: var(--dark);
+    --foreground: var(--light);
   }
 }
 
