@@ -53,7 +53,7 @@
 
 :focus {
   outline: 0.3rem solid;
-  outline-offset: 0.1em;
+  outline-offset: 0.2em;
 }
 
 [tabindex="-1"]:focus {
