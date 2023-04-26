@@ -82,7 +82,7 @@ numberOfLatestBlogsToShow: 5
       <p>This homepage is liked by:</p>
       <ul class="likes">
         {% for like in mentions.likes %}
-        <li class="likes__item">
+        <li>
           <a href="{{ like.author.url }}">{{ like.author.name }}</a>
         </li>
         {% endfor %}
