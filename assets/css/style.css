@@ -311,16 +311,20 @@ footer h2 {
 }
 
 .likes {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(17rem, 100%), 1fr));
-  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   padding-left: 0;
 }
 
-.likes > * {
+.likes > li {
+  margin: 0.5rem;
+}
+
+.likes a {
+  display: inline-block;
   border: 0.1rem solid;
-  padding: 0.5rem;
+  padding: 0.3rem;
 }
 
 .likes > * + * {
@@ -369,12 +373,17 @@ footer h2 {
  */
 @supports (padding-inline: 2rem) {
   header ul,
-  footer ul {
+  footer ul,
+  .likes {
     gap: 1rem;
   }
 
   header ul li,
   footer ul li {
     padding: 0;
+  }
+
+  .likes > li {
+    margin: 0;
   }
 }
