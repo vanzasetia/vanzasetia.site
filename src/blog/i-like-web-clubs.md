@@ -1,7 +1,7 @@
 ---
 title: I Like Web Clubs
 date: 2023-03-28
-dateModified: 2023-04-17
+dateModified: 2023-04-26
 tableOfContents: false
 copyDescription: false
 ---
@@ -74,7 +74,7 @@ Anyway, those are the web clubs that I know for now. You can [send me an email](
 
 ## Update: 29 March 2023
 
-I discover more web clubs.
+I discovered more web clubs.
 
 ### 10KB Club
 
@@ -94,7 +94,7 @@ Thank you [Fabian Holzer](https://holzer.online/) for telling me about this club
 
 ## Update: 17 April 2023
 
-I find a new web club.
+I found a new web club.
 
 ### 1KB Club
 
