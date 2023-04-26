@@ -8,6 +8,15 @@ layout: layouts/base.njk
   {% include "description.njk" %}
   {% include "toc.njk" %}
   {{ content | safe }}
+  {% set mentions = webmentions | webmentionsForPage %}
+  {% if (mentions.total) %}
+    <hr>
+    <aside class="flow" aria-labelledby="aside-webmention">
+      <h2 id="aside-webmention">Webmention</h2>
+      <p>{{ mentions.total }} mention{% if (mentions.total !== 1) %}s{% endif %} in total.  Powered by <a href="https://webmention.io/">Webmention.io</a>.</p>
+      {% include "blog/webmention.njk" %}
+    </aside>
+  {% endif %}
   {% if generatedByAI === false %}
   <hr>
   <aside class="flow" aria-labelledby="written-by-human-not-ai">
