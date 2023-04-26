@@ -310,18 +310,18 @@ footer h2 {
   letter-spacing: 0.01em;
 }
 
-.likes {
+.mentions {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   padding-left: 0;
 }
 
-.likes > li {
+.mentions > li {
   margin: 0.5rem;
 }
 
-.likes a {
+.mentions a {
   display: inline-block;
   border: 0.1rem solid;
   padding: 0.3rem;
@@ -374,7 +374,7 @@ footer h2 {
 @supports (padding-inline: 2rem) {
   header ul,
   footer ul,
-  .likes {
+  .mentions {
     gap: 1rem;
   }
 
@@ -383,7 +383,7 @@ footer h2 {
     padding: 0;
   }
 
-  .likes > li {
+  .mentions > li {
     margin: 0;
   }
 }

@@ -1,0 +1,32 @@
+{% ifAsync mentions.likes.length %}
+  <h3>
+    {% if mentions.likes.length === 1 %}
+      {{ mentions.likes.length }} Like
+    {% elif (mentions.likes.length > 1) -%}
+      {{ mentions.likes.length }} Likes
+    {% endif -%}
+  </h3>
+  <ul class="mentions">
+    {% for like in mentions.likes %}
+    <li>
+      <a href="{{ like.author.url }}">{{ like.author.name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+{% ifAsync mentions.reposts.length %}
+  <h3>
+    {% if mentions.reposts.length === 1 %}
+      {{ mentions.reposts.length }} Repost
+    {% elif (mentions.reposts.length > 1) -%}
+      {{ mentions.reposts.length }} Reposts
+    {% endif -%}
+  </h3>
+  <ul class="mentions">
+      {% for repost in mentions.reposts %}
+      <li>
+        <a href="{{ repost.url }}">{{ repost.author.name }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+{% endif %}
