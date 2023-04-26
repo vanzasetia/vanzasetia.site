@@ -79,7 +79,7 @@ numberOfLatestBlogsToShow: 5
   <h2>Mentions</h2>
   <p>Powered by <a href="https://webmention.io/">Webmention.io</a>.</p>
     {% ifAsync mentions.likes.length %}
-      <p>This homepage is liked by:</p>
+      <p>{{ mentions.likes.length }} people like this homepage. If you have an account on Mastodon, you can join the list too — <a href="https://mastodon.social/@vanzasetia/110262894450374973">26 April 2023, Vanza Setia on Mastodon</a>.</p>
       <ul class="likes">
         {% for like in mentions.likes %}
         <li>
