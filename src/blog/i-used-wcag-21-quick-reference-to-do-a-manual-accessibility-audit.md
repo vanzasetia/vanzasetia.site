@@ -93,7 +93,7 @@ This website does not have `<input>` elements or any form. I skip this section.
 
 The purpose of the page content can be understood by users. This can be achieved by using landmark elements such as using the `<main>` landmark to identify the main content of the page. Another way is to have clear text content for the links so that users know where they are going.
 
-I think this is similar to the [1.3.1 Info and Relationships](#131-info-and-relationships--level-a). Both say that the content should be programmatically specified. But, in this case, the **purpose of the content** is the topic instead of the **relationship between the contents**.
+I think this is similar to the [1.3.1 Info and Relationships](#1.3.1-info-and-relationships-—-level-a). Both say that the content should be programmatically specified. But, in this case, the **purpose of the content** is the topic instead of the **relationship between the contents**.
 
 This website uses proper HTML markup so the purpose of the content is programmatically specified.
 
@@ -167,7 +167,7 @@ Most of the content on this website is text. There are images, but they are not 
 
 Text and images of text must have a contrast ratio of at least 7:1. Large text should have a contrast ratio of at least 4.5:1.
 
-I said earlier in the [1.4.3 Contrast (Minimum) — Level AA](#143-contrast-minimum--level-aa), **the text has a contrast ratio of 11.71:1**.
+I said earlier in the [1.4.3 Contrast (Minimum) — Level AA](#1.4.3-contrast-(minimum)-—-level-aa), **the text has a contrast ratio of 11.71:1**.
 
 [Understanding Success Criterion 1.4.6: Contrast (Enhanced) | WAI | W3C](https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced.html)
 

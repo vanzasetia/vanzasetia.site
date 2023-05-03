@@ -10,7 +10,7 @@ This website is partially conformant with [Web Content Accessibility Guidelines 
 
 I have done a manual accessibility audit on this website. But, I do not fully understand WCAG so I can not make any claims about whether I *actually* have met the criterion or not.
 
-See how I did the audit — [I Used WCAG 2.1 Quick Reference to Do a Manual Accessibility Audit — Vanza Setia](http://localhost:8080/blog/i-used-wcag-2-1-quick-reference-to-do-a-manual-accessibility-audit/)
+See how I did the audit — [I Used WCAG 2.1 Quick Reference to Do a Manual Accessibility Audit — Vanza Setia](/blog/i-used-wcag-2-1-quick-reference-to-do-a-manual-accessibility-audit/)
 
 Anyway, I can make sure that this website:
 
