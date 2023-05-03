@@ -30,6 +30,12 @@ I built this website to be compatible with:
 
 I do not support Internet Explorer.
 
+## Limitations
+
+This website uses Webmention to display comments. The comments may contain unusual words and require a high reading ability—or in other words, they may be hard to understand.
+
+Also, links may have the same text content or label even though they have different purposes.
+
 ## What I am doing to improve accessibility
 
 I keep learning to gain more knowledge about web accessibility.
