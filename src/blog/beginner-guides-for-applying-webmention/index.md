@@ -166,6 +166,12 @@ Learn more about microformats:
 - [Microformats Wiki](https://microformats.org/wiki/Main_Page)
 - [Barnaby Walters • Getting started with microformats2](https://waterpigs.co.uk/articles/getting-started-with-microformats2/)
 
+Then, you can send the mention through `https://webmention.io/[DOMAIN]/webmention`.
+
+You should change the `[DOMAIN]` to the domain of the website that you want to mention or the target URL. For example, if you want to send a mention to VanzaSetia.site, then you should send it through `https://webmention.io/vanzasetia.site/webmention`—[Hosted Webmention Service | The Webmention Endpoint for VanzaSetia.site](https://webmention.io/vanzasetia.site/webmention)'.
+
+You must know that `https://webmention.io/vanzasetia.site/webmention` and `https://webmention.io/vanzasetia.site/webmention/` are **different**. If you add a forward slash at the end of the URL, it will give you a "Not Found" page.
+
 ### Comment on a website
 
 The markup that I use to comment on one of my blog posts—[Better — Vanza Setia](https://vanzasetia.site/blog/better/)—is from my testing website.
@@ -360,6 +366,8 @@ When you are trying to input the target URL, make sure that the URL on the marku
 
 You should make sure that **the target URL is the same as the URL you want to mention**.
 
+Again, you should remember that `https://webmention.io/vanzasetia.site/webmention` and `https://webmention.io/vanzasetia.site/webmention/` are **different**. The URL with a forward slash at the end will give you a "Not Found" page.
+
 ### Specificity
 
 For example, if you have `<a href="https://vanzasetia.site/" class="u-like-of">` on line 8, then `<a href="https://vanzasetia.site/" class="u-repost-of">` on line 9, the Webmention will think that you want to repost instead of liking the website.
@@ -417,7 +425,7 @@ Examples of IndieWeb — [Webmention - IndieWeb](https://indieweb.org/Webmention
 
 [The Webmention Specification](https://www.w3.org/TR/webmention/)
 
-Webmention Rocks! is a validator to help you test your Webmention implementation.[Webmention Rocks!](https://webmention.rocks/)
+A validator to help you test your Webmention implementation — [Webmention Rocks!](https://webmention.rocks/)
 
 [PHP Microformats Parser](http://php.microformats.io/)
 
