@@ -2,6 +2,7 @@
 title: Beginner Guides for Applying Webmention
 description: I can not find a friendly guide for using Webmention. So, I create one.
 date: 2023-05-03
+dateModified: 2023-05-04
 tocMaxLevel3: true
 ---
 
@@ -236,7 +237,7 @@ The `h-entry` class indicates that this is a microformatted markup.
 
 The `h-card p-author` classes indicate that this is the author's profile.
 
-The `u-photo` **inside** the `h-card p-author` indicates the name of the author.
+The `u-photo` **inside** the `h-card p-author` indicates the photo of the author.
 
 The `p-name` class **inside** the `h-card p-author` indicates the name of the author.
 
@@ -248,7 +249,7 @@ The `dt-published` class on a `<time>` element indicates when the comment is pub
 
 The `e-content` class indicates the comment from the author.
 
-The `u-in-reply-to` class on `<a>` indicates the that this is **a reply** to another post or anything. The `href` attribute contains the URL of the post you are replying to.
+The `u-in-reply-to` class on `<a>` indicates a reply or a comment to another post or anything. The `href` attribute contains the URL of the post you are replying to.
 
 The `u-url` class for the `h-entry` indicates the URL for the comment.
 
