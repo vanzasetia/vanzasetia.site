@@ -8,8 +8,6 @@ You can find all my blog posts on the archive page—[Archive — Vanza Setia](h
 
 All the links that I found useful to build this website is on [`./docs/README.md`](./docs/README.md).
 
-You can copy this project and you must make the source code available publicly. See the [license](#license) for more information.
-
 ## Technology
 
 My website is using the following technology:
