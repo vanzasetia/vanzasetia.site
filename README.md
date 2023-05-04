@@ -79,7 +79,7 @@ Here are the things that you need to do:
 
 ## Acknowledgments
 
-I created this website using Eleventy. Before I knew about it, I thought it would be impossible to create a static website without JavaScript. Now, I manage to create my website and write blog posts. Thank you, Eleventy team!
+I created this website using Eleventy. Before I knew about it, I thought it would be very hard to maintain a static website with a lot of pages. Now, I manage to create my website and write blog posts. Thank you, Eleventy team!
 
 This `README` is inspired by the following article—[How To README · Matthias Ott – User Experience Designer](https://matthiasott.com/notes/how-to-readme).
 
