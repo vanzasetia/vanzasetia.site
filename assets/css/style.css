@@ -160,11 +160,16 @@ footer ul {
   padding-left: 0;
 }
 
+ol,
 ul {
   padding-left: 1.25em;
 }
 
 ul ul,
+ul ol,
+ol ol,
+ol ul,
+ol > li + li,
 ul > li + li {
   margin-top: 0.6rem;
 }
