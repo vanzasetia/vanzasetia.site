@@ -30,6 +30,10 @@ The website includes the following features:
 - About: A brief introduction to my skills, my interests, and my experience.
 - Webmention: A collection of interactions from Mastodon and other websites that support Webmention.
 
+## Usage
+
+You can use the source code and modify it to create your own personal website.
+
 ## Getting started
 
 I use Node `v18` at the time I am writing this section—02 April 2023. I do not know what might happen if you run this project on the Node that is below `v18`. To be safe, make sure you use Node `v18` or higher.
@@ -54,7 +58,7 @@ npm run build
 
 You can view the website at [http://localhost:8080/](http://localhost:8080/)
 
-## Configuration and usage
+## Configuration
 
 You can configure everything. In this section, I tell you some of the things that you can configure.
 
