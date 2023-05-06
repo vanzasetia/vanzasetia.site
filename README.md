@@ -83,6 +83,8 @@ The `clean` command is used to remove the `_site` and `_webmentioncache` folders
 
 The `check-links` command is used to check internal navigation links such as the links inside the table of contents. You must run the `start` or the `build` command first before running this command—to generate the `_site` folder. The documentation—[Check HTML links | Rocket](https://rocket.modern-web.dev/tools/check-html-links/overview/).
 
+The `validate-html` command is used to validate all HTML files inside the `_site` folder. I have configured the HTML validation with the [`.htmlvalidate.json`](./.htmlvalidate.json). You can configure the HTML validation by taking a look at the documentation—[HTML-validate - Getting started](https://html-validate.org/usage/index.html).
+
 ### Metadata
 
 You can change the metadata of the website by changing the [`./src/_data/metadata.js`](./src/_data/metadata.js) file.
