@@ -76,16 +76,6 @@ The complete source code of the `<head>` tag is inside the [`./src/_includes/lay
 
 I recommend using Netlify—I use this platform to host my website. There is already a `netlify.toml` file that will configure the build process.
 
-## How to contribute
-
-I do not need any contribution at the moment. But, I am open to any contribution. In other words, you can contribute to this project.
-
-Here are the things that you need to do:
-
-- Create a new issue before making any changes (we must discuss it first)
-- Make sure your code-formatter does not change the format of the code base.
-- Follow the format that is already available
-
 ## Acknowledgments
 
 I created this website using Eleventy. Before I knew about it, I thought it would be very hard to maintain a static website with a lot of pages. Now, I manage to create my website and write blog posts. Thank you, Eleventy team!
