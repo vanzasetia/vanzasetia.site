@@ -62,6 +62,19 @@ You can view the website at [http://localhost:8080/](http://localhost:8080/)
 
 You can configure everything. In this section, I tell you some of the things that you can configure.
 
+### Environment variables
+
+You should create a `.env` file, then have these two variables.
+
+```txt
+TOKEN_API="EYTzYK2WnWAPZHFOSJV9ew"
+DEVELOPMENT=true
+```
+
+`TOKEN_API` is your Webmention token.
+
+`DEVELOPMENT` is set to `true` to prevent the minification while you are developing the website. This can help you to see the output and do validation.
+
 ### Commands
 
 You can configure the `start` and `build` commands by looking at the Eleventy documentation—[Command Line Usage — Eleventy](https://www.11ty.dev/docs/usage/).
@@ -79,6 +92,8 @@ The complete source code of the `<head>` tag is inside the [`./src/_includes/lay
 ## Deployment
 
 I recommend using Netlify—I use this platform to host my website. There is already a `netlify.toml` file that will configure the build process.
+
+After that, add `TOKEN_API` variable as the environment variable to fetch all your Webmentions.
 
 ## Acknowledgments
 
