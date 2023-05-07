@@ -1,4 +1,5 @@
 {% set url %}{% if page.url == "/" %}{{ metadata.url }}{% else %}{{  metadata.url }}{{ page.url }}{% endif %}{% endset %}
+{% set css %}{% include "assets/style.css" %}{% endset %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,10 +9,7 @@
     <title>
       {% if page.url == "/" %}{{ title }}{% else %}{{ title }} — Vanza Setia{% endif %}
     </title>
-    {% css %}{% include "assets/css/style.min.css" %}{% endcss %}
-    <style>
-      {% getBundle "css" %}
-    </style>
+    <style>{{ css | cssmin | safe }}</style>
     <link
       rel="alternate"
       href="/feed.xml"

@@ -1,6 +1,5 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
-const pluginBundle = require("@11ty/eleventy-plugin-bundle");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const { DateTime } = require("luxon");
 const tocExtract = require("toc-extract/plugins/eleventy.js");
@@ -11,6 +10,7 @@ const htmlmin = require("html-minifier");
 const imagePlugin = require("./eleventy.config.images.js");
 const Webmentions = require("eleventy-plugin-webmentions");
 const dotenv = require("dotenv");
+const CleanCSS = require("clean-css");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
@@ -23,12 +23,11 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addWatchTarget("src/**/*.{svg,webp,png,jpeg}");
-  eleventyConfig.addWatchTarget("./assets/css/*.css");
+  eleventyConfig.addWatchTarget("./assets/style.css");
 
   eleventyConfig.addPlugin(imagePlugin);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-  eleventyConfig.addPlugin(pluginBundle);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(recentChanges);
   eleventyConfig.setLibrary(
@@ -55,6 +54,10 @@ module.exports = function (eleventyConfig) {
     domain: "vanzasetia.site",
     token: process.env.TOKEN_API,
     htmlContent: false
+  });
+
+  eleventyConfig.addFilter("cssmin", function (code) {
+    return new CleanCSS({}).minify(code).styles;
   });
 
   eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
