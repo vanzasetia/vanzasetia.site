@@ -1,0 +1,5 @@
+<p>{{ resource.description }}</p>
+{% set list = resource.links %}
+{% for link in list %}
+  {% include "resources/card.njk" %}
+{% endfor %}
