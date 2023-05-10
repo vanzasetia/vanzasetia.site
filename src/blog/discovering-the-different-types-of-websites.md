@@ -1,6 +1,7 @@
 ---
 title: Discovering the Different Types of Websites
 date: 2023-05-09
+dateModified: 2023-05-10
 copyDescription: false
 ---
 
@@ -52,6 +53,32 @@ This includes social media platforms, educational websites, news websites, e-com
 
 This one is what I usually use on a day-to-day basis.
 
+## Open web
+
+<blockquote class="flow">
+
+The Open Web Platform is the collection of open (royalty-free) technologies which enables the Web. Using the Open Web Platform, everyone has the right to implement a software component of the Web without requiring any approvals or waiving license fees.
+
+From: [Open Web Platform - W3C Wiki](https://www.w3.org/wiki/Open_Web_Platform)
+
+</blockquote>
+
+Open web is not a different type of website. It is the foundation of any website.
+
+Open web allows anyone to create their own websites without having to pay anything. Anyone can use HTML, CSS, and JavaScript for free. It is free and will be free.
+
+HTML, CSS, and JavaScript are the technologies that follow open standards. They are accessible and usable by anyone.
+
+You do not have to use your money to know HTML, CSS, and JavaScript. The specification for each of them is publicly available.
+
+The specification for HTML — [HTML Standard](https://html.spec.whatwg.org/)
+
+A list of all CSS specifications — [All CSS specifications](https://www.w3.org/Style/CSS/specs.en.html)
+
+The JavaScript specification — [ECMAScript® 2022 Language Specification](https://262.ecma-international.org/)
+
+In my opinion, those specifications are not the go-to resources for people to learn about making websites. Who is going to start learning HTML from the specification page? It would be a nightmare. So, they can be accessed by anyone, and at the same time, they are being avoided by anyone.
+
 ## Resources
 
 I think this is a good source to learn more about Gemini websites — [Project Gemini](https://gemini.circumlunar.space/)
@@ -69,3 +96,13 @@ Learn more about Edward Snowden — [Edward Snowden - Wikipedia](https://en.wiki
 [POSSE - IndieWeb](https://indieweb.org/POSSE)
 
 I have a guide to implement Webmention on your website — [Beginner Guides for Applying Webmention](/blog/beginner-guides-for-applying-webmention/)
+
+[Open Web Platform - W3C Wiki](https://www.w3.org/wiki/Open_Web_Platform)
+
+[Web platform - Wikipedia](https://en.m.wikipedia.org/wiki/Web_platform)
+
+[The web and web standards - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards)
+
+[Standards - W3C](https://www.w3.org/standards/)
+
+[Open standard - Wikipedia](https://en.m.wikipedia.org/wiki/Open_standard)
