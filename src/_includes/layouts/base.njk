@@ -65,7 +65,7 @@
     <meta property="og:url" content="{{ url }}" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:creator" content="@vanzasetia" />
-    <link rel="canonical" href="{{ metadata.url }}" />
+    {% if page.url == "/" %}<link rel="canonical" href="{{ metadata.url }}" />{% endif %}
     <link href="https://github.com/vanzasetia" rel="me" />
     <link
       rel="webmention"
