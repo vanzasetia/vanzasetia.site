@@ -25,7 +25,7 @@
   <ul class="mentions">
       {% for repost in mentions.reposts %}
       <li>
-        <a href="{{ repost.url }}">{{ repost.author.name }}</a>
+        <a href="{{ repost.author.url }}">{{ repost.author.name }}</a>
       </li>
       {% endfor %}
     </ul>
