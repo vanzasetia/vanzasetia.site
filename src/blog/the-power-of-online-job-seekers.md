@@ -2,6 +2,7 @@
 title: The Power of Online Job Seekers
 description: As a job seeker, I have the power of choice. I have the power to control what information I give them. I have the power to accept or reject the offer. Not just the hiring manager who has the power.
 date: 2023-05-13
+dateModified: 2023-05-14
 tableOfContents: false
 ---
 
@@ -25,9 +26,9 @@ I submit my resume so you as a hiring manager can read it. You can learn about m
 
 Next, I receive an invitation for an interview. Great! Now, I can start also learning about your company. I do some research by visiting your website. Take a look at your social media.
 
-Finally, it is time for the interview. We do a video call. Then, you ask me, *"Tell me about yourself*". Wait a minute. Did you read my resume or not? Did you do some research about me? Did you see my LinkedIn profile?
+Finally, it is time for the interview. We do a video call. Then, you ask me, *"Tell me about yourself"*. Wait a minute. Did you read my resume or not? Did you do some research about me? Did you see my LinkedIn profile?
 
-You should read my resume. You should also do some research about me. The point of putting my LinkedIn profile on the resume so that you can learn about me. Then, you ask something from it. For example, *"I see one of your posts on LinkedIn, and you are doing a frontend challenge thing. Tell me about your workflow on doing that."*. Now, I can talk naturally. I can be myself. I do not need to do research on *"the best answer to 'tell me about yourself' the question"*.
+You should read my resume. You should also do some research about me. The point of putting my LinkedIn profile on the resume so that you can learn about me. Then, you ask something from it. For example, *"I see one of your posts on LinkedIn, and you are doing a frontend challenge thing. Tell me about your workflow on doing that."*. Now, I can talk naturally. I can be myself. I do not need to do research on *"the best answer to 'tell me about yourself' question"*.
 
 I do my homework and you should also do your homework. I learn about the company and at the same time, you should learn about me. This way, the interview will be focusing on learning more about each other.
 
@@ -37,7 +38,7 @@ After an interview, I usually get asked to do a task. The company wants to test 
 
 Wait. I give you my resume to prove to you that I can do the work. You are not satisfied. Then, you ask me questions to learn more about my personality and also to know whether you actually know your stuff or not. Again, you are not satisfied. Now, you ask me to do another test to prove that I can do the work. Okay!
 
-A while ago, the work that I got was to create a presentation about how to improve the homepage of your website. What kind of test is that? Are you trying to use me for free? Then, after I submit the presentation, you can say to me, *"Sorry, we do not need you"*.
+A while ago, the work that I got was to create a presentation about how to improve the homepage of their website. What kind of test is that? Are you trying to use me for free? Then, after I submit the presentation, you can say to me, *"Sorry, we do not need you"*.
 
 I want to get a job. I will do that if you already accept me.
 
@@ -55,7 +56,7 @@ A resume should only contain the necessary information to show that "I can do wh
 
 ### More ways to communicate
 
-You contact me through LinkedIn or email. No need to ask for my phone number, at least until I get hired.
+You can contact me through LinkedIn or email. No need to ask for my phone number, at least until I get hired.
 
 ### We do what we should do
 
