@@ -135,6 +135,12 @@ module.exports = [
           "Heydon Pickering - Why Inclusive Design is like cooking a curry - YouTube",
         description: `Learning web accessibility can be like learning to cook a curry.`,
         url: "https://www.youtube.com/watch?v=VavUglhLH8U"
+      },
+      {
+        title:
+          "Sophie Koonin – This Website Is under Construction, a Love Letter to the Personal Website – btconf - YouTube",
+        description: `Personal websites are wild. Those websites are the places to do experiment, post anything you like, and many other things. This talk is about how websites have evolved from the early days to now.`,
+        url: "https://www.youtube.com/watch?v=2ZUqa-lTbnU"
       }
     ]
   },
