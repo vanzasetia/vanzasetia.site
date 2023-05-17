@@ -2,7 +2,7 @@
 title: Frontend Mentor Bundle
 description: Frontend Mentor Bundle is a collection of people, blog posts, solutions, and resources about Frontend Mentor.
 date: 2023-05-07
-dateModified: 2023-05-12
+dateModified: 2023-05-17
 tableOfContents: false
 ---
 
@@ -64,6 +64,7 @@ A list of Frontend Mentor solutions.
 All official Frontend Mentor resources that I found useful.
 
 - [Frontend Mentor | Curated list of front-end resources](https://www.frontendmentor.io/resources)
+- [Create a Talent Profile recruiters will love | by Matt Studdert | Frontend Mentor | Medium](https://scribe.rip/frontend-mentor/create-a-talent-profile-recruiters-will-love-e44d83de2112)
 - [How to fill in your work preferences on Frontend Mentor | by Matt Studdert | Frontend Mentor | Medium](https://scribe.rip/frontend-mentor/how-to-fill-in-your-work-preferences-on-frontend-mentor-f15fecd14a55)
 - [A complete guide to submitting solutions on Frontend Mentor | by Matt Studdert | Frontend Mentor | Medium](https://scribe.rip/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248)
 - [Frontend Mentor community guidelines | by Matt Studdert | Frontend Mentor | Medium](https://scribe.rip/frontend-mentor/frontend-mentor-community-guidelines-44303cc38aa6)
