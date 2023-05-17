@@ -1,7 +1,7 @@
 ---
 title: Discovering the Different Types of Websites
 date: 2023-05-09
-dateModified: 2023-05-10
+dateModified: 2023-05-17
 copyDescription: false
 ---
 
@@ -79,6 +79,16 @@ The JavaScript specification — [ECMAScript® 2022 Language Specification](htt
 
 In my opinion, those specifications are not the go-to resources for people to learn about making websites. Who is going to start learning HTML from the specification page? It would be a nightmare. So, they can be accessed by anyone, and at the same time, they are being avoided by anyone.
 
+## Gopher websites
+
+The URL starts with **gopher://** and then the domain name.
+
+I do not know how to access a website with Gopher protocol.
+
+I have an example of a website that uses Gopher — [gopher://gopher.black](gopher://gopher.black)
+
+That website is developed by tomasino — [tomasino (@tomasino@tilde.zone) - tilde.zone](https://tilde.zone/@tomasino)
+
 ## Resources
 
 I think this is a good source to learn more about Gemini websites — [Project Gemini](https://gemini.circumlunar.space/)
@@ -106,3 +116,5 @@ I have a guide to implement Webmention on your website — [Beginner Guides for 
 [Standards - W3C](https://www.w3.org/standards/)
 
 [Open standard - Wikipedia](https://en.m.wikipedia.org/wiki/Open_standard)
+
+[The Web Before the Web: A Look Back at Gopher](https://www.howtogeek.com/661871/the-web-before-the-web-a-look-back-at-gopher/)
