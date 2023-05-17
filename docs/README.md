@@ -35,4 +35,4 @@ This is the place where I put all the resources that I find useful to build this
 - [Markdown ToC Generator](https://luciopaiva.com/markdown-toc/)
 - [Developing an Accessibility Statement | Web Accessibility Initiative (WAI) | W3C](https://www.w3.org/WAI/planning/statements/)
 - [Why you need a privacy policy – tempertemper](https://www.tempertemper.net/resources/why-you-need-a-privacy-policy)
-- [Moment.js | Docs](https://momentjs.com/docs/#/displaying/format/) - A date format documentation for [nunjucks-date-filter package](https://www.npmjs.com/package/nunjucks-date-filter)
+- [Luxon - Formatting](https://moment.github.io/luxon/#/formatting?id=table-of-tokens) - A date format documentation.

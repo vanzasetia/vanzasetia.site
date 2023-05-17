@@ -11,7 +11,6 @@ const imagePlugin = require("./eleventy.config.images.js");
 const Webmentions = require("eleventy-plugin-webmentions");
 const dotenv = require("dotenv");
 const CleanCSS = require("clean-css");
-const nunjucksDate = require("nunjucks-date-filter");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
@@ -57,15 +56,19 @@ module.exports = function (eleventyConfig) {
     htmlContent: false
   });
 
-  eleventyConfig.addFilter("date", nunjucksDate);
-
   eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;
   });
 
-  eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
-    return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(
-      format || "dd LLLL yyyy"
+  eleventyConfig.addFilter("blogDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
+      "dd LLLL yyyy"
+    );
+  });
+
+  eleventyConfig.addFilter("webmentionPostDate", (dateObj) => {
+    return DateTime.fromISO(dateObj, { zone: "utc" }).toFormat(
+      "dd LLLL yyyy, hh:mma"
     );
   });
 

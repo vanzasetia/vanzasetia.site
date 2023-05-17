@@ -1,12 +1,12 @@
 <p class="time">
   Published on
   <time datetime="{{ page.date | htmlDateString }}"
-    >{{ page.date | readableDate }}</time
+    >{{ page.date | blogDate }}</time
   >. 
   {% if dateModified %}
   Updated on
   <time datetime="{{ dateModified | htmlDateString }}"
-    >{{ dateModified | readableDate }}</time
+    >{{ dateModified | blogDate }}</time
   >.
   {% endif %}
 </p>

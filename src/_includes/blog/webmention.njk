@@ -46,7 +46,7 @@
       <p>{{ comment.content.value | safe }}</p>
       <p>
         <a href="{{ comment.url }}">
-          {{ comment.published | date("D MMMM YYYY, h:mmA") }}
+          {{ comment.published | webmentionPostDate }}
           <svg width="24" height="24" stroke-width="2" viewBox="0 0 24 24" focusable="false" role="img" aria-label="View original post" style="width:1em;height:1em;"><defs><style>.cls-63d{fill:none}</style></defs><polyline class="cls-63d" points="22 13 22 22 2 22 2 2 11 2"></polyline><polyline class="cls-63d" points="14 2 22 2 22 10"></polyline><line class="cls-63d" x1="22" y1="2" x2="10" y2="14"></line></svg>
         </a>
       </p>
