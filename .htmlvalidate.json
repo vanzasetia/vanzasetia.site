@@ -13,6 +13,7 @@
     "no-redundant-role": ["warn"],
     "no-trailing-whitespace": ["off"],
     "no-raw-characters": ["off"],
+    "no-inline-style": ["off"],
     "input-missing-label": ["error"],
     "missing-doctype": ["error"],
     "no-missing-references": ["error"],
