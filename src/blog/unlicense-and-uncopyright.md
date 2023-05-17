@@ -13,7 +13,7 @@ You can do whatever you like to the source code of this website. Also, you can d
 
 I used the GNU Affero General Public License v3.0 before using the Unlicense. The GNU AGPLv3 license is very long. While the Unlicense is shorter and I understand it. That is the first reason.
 
-Second, the Unlicense allows anyone to do whatever they like to the source code. They can copy the entire source code without any changes. They can make money from it. They can improve it and tell the word that they are written by them. Whatever. They can do whatever they want.
+Second, the Unlicense allows anyone to do whatever they like to the source code. They can copy the entire source code without any changes. They can make money from it. They can improve it and tell the world that they are written by them. Whatever. They can do whatever they want.
 
 For the content, I did not put any copyright. This is a problem because people are not allowed to do anything with my content. If I license the content of this website, people can share the content with some terms and conditions. For example, they are allowed to share the content and they must put an attribution.
 

@@ -13,7 +13,7 @@ module.exports = [
     live: "https://myteamsoftware.netlify.app/",
     source: "https://github.com/vanzasetia/myteam-multi-page-website",
     descriptions: [
-      "This is a fully functional three-page website. It has a hamburger menu for mobile users. It's a responsive website with fluid typography and spacing.",
+      "This is a fully functional three-page website. It has a hamburger menu for mobile users. It is a responsive website with fluid typography and spacing.",
       "I built the site with progressive enhancement in mind. Meaning, the site also works without JavaScript."
     ]
   },
