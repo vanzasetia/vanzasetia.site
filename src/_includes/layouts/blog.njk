@@ -13,7 +13,7 @@ layout: layouts/base.njk
     <hr>
     <aside class="flow" aria-labelledby="aside-webmention">
       <h2 id="aside-webmention">Webmention</h2>
-      <p>{{ mentions.total }} mention{% if (mentions.total !== 1) %}s{% endif %} in total.  Powered by <a href="https://webmention.io/">Webmention.io</a>.</p>
+      <p>{{ mentions.total }} mention{% if (mentions.total !== 1) %}s{% endif %} in total.  Powered by <a href="https://webmention.io/">Webmention.io</a> and <a href="https://brid.gy/">Bridgy</a>.</p>
       {% include "blog/webmention.njk" %}
     </aside>
   {% endif %}
