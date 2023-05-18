@@ -145,9 +145,8 @@ module.exports = [
     ]
   },
   {
-    category: "Tools",
-    description:
-      "You can make your development process better and quicker by using these tools.",
+    category: "Validator",
+    description: "Validate your code!",
     links: [
       {
         title: "W3C HTML Validator",
@@ -173,7 +172,49 @@ module.exports = [
         title: "Schema Validator",
         description: `Validate your schema data.`,
         url: "https://validator.schema.org/"
+      }
+    ]
+  },
+  {
+    category: "English",
+    description: "These tools can help me improve my writing in English.",
+    links: [
+      {
+        title: "Grammarly: Free Online Writing Assistant",
+        description: `This tool prevents me from doing typos in my writing.`,
+        url: "https://www.grammarly.com/"
       },
+      {
+        title: "DeepL Write: AI-powered writing companion",
+        description: `I use this to fix grammar issues and paraphrase sentences.`,
+        url: "https://www.deepl.com/write"
+      },
+      {
+        title: "LanguageTool - Online Grammar, Style & Spell Checker",
+        description: `Another good grammar fixer and paraphraser.`,
+        url: "https://languagetool.org/"
+      },
+      {
+        title: "Paraphrasing Tool - QuillBot AI",
+        description: `Another good paraphraser.`,
+        url: "https://quillbot.com/"
+      },
+      {
+        title: "Wordtune | Your personal writing assistant & editor",
+        description: `I use this to paraphrase a short sentence.`,
+        url: "https://www.wordtune.com/"
+      },
+      {
+        title: "Hemingway Editor",
+        description: `It makes my writing clear and bold by highlighting potential words that can be removed.`,
+        url: "https://hemingwayapp.com/"
+      }
+    ]
+  },
+  {
+    category: "Performance",
+    description: "Check and improve the performance of your website.",
+    links: [
       {
         title: "Lighthouse",
         description: `I recommend using this as the first automatic testing tool for your site. It can catch some accessibility issues and do different types of tests too.`,
@@ -185,6 +226,23 @@ module.exports = [
         url: "https://pagespeed.web.dev/"
       },
       {
+        title: "GTmetrix | Website Performance Testing and Monitoring",
+        description: `Test the performance of your website for free.`,
+        url: "https://gtmetrix.com/"
+      },
+      {
+        title: "Free Website Speed Test | DebugBear",
+        description: `Test the performance of your website for free.`,
+        url: "https://www.debugbear.com/test/website-speed"
+      }
+    ]
+  },
+  {
+    category: "Other tools",
+    description:
+      "You can make your development process better and quicker by using these tools.",
+    links: [
+      {
         title: "Squoosh",
         description: `Optimize your images so that your users will not be frustrated with their cellular data usage.`,
         url: "https://squoosh.app/"
@@ -193,21 +251,6 @@ module.exports = [
         title: "Free Design Tool: Presentations, Video, Social Media | Canva",
         description: `I use this to design the banners for my READMEs and favicons.`,
         url: "https://www.canva.com/"
-      },
-      {
-        title: "Grammarly: Free Online Writing Assistant",
-        description: `This tool prevents me from doing typos in my writing.`,
-        url: "https://www.grammarly.com/"
-      },
-      {
-        title: "Favicon Generator for perfect icons on all browsers",
-        description: `I use this tool to generate favicons for this website.`,
-        url: "https://realfavicongenerator.net/"
-      },
-      {
-        title: "RegExr: Learn, Build, & Test RegEx",
-        description: `Practice writing regular expression easily.`,
-        url: "https://regexr.com/"
       },
       {
         title: "CloudConvert",
@@ -220,15 +263,42 @@ module.exports = [
         url: "https://jakearchibald.github.io/svgomg/"
       },
       {
+        title: "Favicon Generator for perfect icons on all browsers",
+        description: `I use this tool to generate favicons for this website.`,
+        url: "https://realfavicongenerator.net/"
+      },
+      {
+        title: "RegExr: Learn, Build, & Test RegEx",
+        description: `Practice writing regular expression easily.`,
+        url: "https://regexr.com/"
+      },
+      {
+        title:
+          "Test for modern Internet Standards like IPv6, DNSSEC, HTTPS, DMARC, STARTTLS and DANE.",
+        description: `Another test that you can run.`,
+        url: "https://internet.nl/"
+      },
+      {
+        title: "SSL Server Test (Powered by Qualys SSL Labs)",
+        description: `Test how good your website's SSL (Secure Sockets Layer).`,
+        url: "https://www.ssllabs.com/ssltest/index.html"
+      },
+      {
+        title: "Juicy Studio: Readability Test",
+        description: `Test how easy your content to be understood.`,
+        url: "https://juicystudio.com/services/readability.php"
+      },
+      {
+        title: "Meta Tags — Preview, Edit and Generate",
+        description: `Preview the social media card of your website.`,
+        url: "https://metatags.io/"
+      },
+      {
         title: "Colorable",
         description: `Compare two colors to see the contrast of them.`,
         url: "https://colorable.jxnblk.com/"
       },
-      {
-        title: "Hemingway Editor",
-        description: `It makes my writing clear and bold by highlighting potential words that can be removed.`,
-        url: "https://hemingwayapp.com/"
-      },
+
       {
         title: "Caninclude",
         description: `If you get confused about whether anchor tag is valid to be a child element of the code element, then you can use this tool to verify that.`,
