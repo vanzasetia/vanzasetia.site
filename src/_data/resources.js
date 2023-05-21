@@ -25,6 +25,12 @@ module.exports = [
         url: "https://a11ymyths.com/"
       },
       {
+        title: "WebAIM: HTML Semantics and Accessibility Cheat Sheet",
+        description:
+          "A table listing common HTML elements that have an impact on accessibility for users with disabilities.",
+        url: "https://webaim.org/resources/htmlcheatsheet/"
+      },
+      {
         title: "Inclusive Components",
         description: `This is my first go-to resource when I want to create an accessible component.`,
         url: "https://inclusive-components.design/"
