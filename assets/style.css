@@ -224,7 +224,6 @@ header {
 
 header [href="/"] {
   display: inline-block;
-  text-decoration-color: transparent;
 }
 
 [role="img"][aria-label="Home - Vanza Setia"] {
