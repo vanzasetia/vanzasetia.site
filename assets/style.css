@@ -1,27 +1,3 @@
-@font-face {
-  font-family: "Noto Sans";
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-  src: url("/fonts/NotoSans-Bold.woff2");
-}
-
-@font-face {
-  font-family: "Noto Sans";
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-  src: url("/fonts/NotoSans-Regular.woff2");
-}
-
-@font-face {
-  font-family: "Miriam Libre";
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-  src: url("/fonts/MiriamLibre-Bold.woff2");
-}
-
 :root {
   --dark: #222;
   --light: #ddd;
@@ -115,7 +91,7 @@ h1,
 h2,
 h3 {
   line-height: 1.1;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.01em;
 }
 
 picture,
@@ -252,8 +228,7 @@ header [href="/"] {
 }
 
 [role="img"][aria-label="Home - Vanza Setia"] {
-  font-family: "Miriam Libre", sans-serif;
-  letter-spacing: 0.05em;
+  letter-spacing: -0.01em;
   font-size: 2rem;
   font-weight: 700;
 }
