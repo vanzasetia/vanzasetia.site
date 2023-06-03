@@ -19,7 +19,7 @@ A website without a head element is like...
 
 ## Resources
 
-[<head>: The Document Metadata (Header) element - HTML: HyperText Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)
+[`<head>`: The Document Metadata (Header) element - HTML: HyperText Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)
 
 [What's in the head? Metadata in HTML - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
 
