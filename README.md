@@ -28,7 +28,6 @@ The website includes the following features:
 - Homepage: A showcase of my latest projects and blog posts.
 - Blog: A collection of my learning experiences.
 - About: A brief introduction to my skills, my interests, and my experience.
-- Webmention: A collection of interactions from Mastodon and other websites that support Webmention.
 
 ## Usage
 
@@ -64,14 +63,11 @@ You can configure everything. In this section, I tell you some of the things tha
 
 ### Environment variables
 
-You should create a `.env` file, then have these two variables.
+You should create a `.env` file, then have one variable.
 
 ```txt
-TOKEN_API="EYTzYK2WnWAPZHFOSJV9ew"
 DEVELOPMENT=true
 ```
-
-`TOKEN_API` is your Webmention token.
 
 `DEVELOPMENT` is set to `true` to prevent the minification while you are developing the website. This can help you to see the output and do validation.
 
@@ -79,7 +75,7 @@ DEVELOPMENT=true
 
 You can configure the `start` and `build` commands by looking at the Eleventy documentation—[Command Line Usage — Eleventy](https://www.11ty.dev/docs/usage/).
 
-The `clean` command is used to remove the `_site` and `_webmentioncache` folders. This can be useful if you have a duplication issue or you want to get a new and fresh build version. You can change the command by adding or removing more folders to delete. The full documentation is available on GitHub—[isaacs/rimraf: A `rm -rf` util for nodejs](https://github.com/isaacs/rimraf).
+The `clean` command is used to remove the `_site` folder. This can be useful if you have a duplication issue or you want to get a new and fresh build version. You can change the command by adding or removing more folders to delete. The full documentation is available on GitHub—[isaacs/rimraf: A `rm -rf` util for nodejs](https://github.com/isaacs/rimraf).
 
 The `check-links` command is used to check internal navigation links such as the links inside the table of contents. You must run the `start` or the `build` command first before running this command—to generate the `_site` folder. The documentation—[Check HTML links | Rocket](https://rocket.modern-web.dev/tools/check-html-links/overview/).
 
@@ -94,8 +90,6 @@ The complete source code of the `<head>` tag is inside the [`./src/_includes/lay
 ## Deployment
 
 I recommend using Netlify—I use this platform to host my website. There is already a `netlify.toml` file that will configure the build process.
-
-After that, add `TOKEN_API` variable as the environment variable to fetch all your Webmentions.
 
 ## Acknowledgments
 

@@ -8,7 +8,6 @@ const markdownItAnchor = require("markdown-it-anchor");
 const recentChanges = require("eleventy-plugin-recent-changes");
 const htmlmin = require("html-minifier");
 const imagePlugin = require("./eleventy.config.images.js");
-const Webmentions = require("eleventy-plugin-webmentions");
 const dotenv = require("dotenv");
 const CleanCSS = require("clean-css");
 
@@ -49,12 +48,6 @@ module.exports = function (eleventyConfig) {
 
   // Exposing the environment variable
   dotenv.config();
-
-  eleventyConfig.addPlugin(Webmentions, {
-    domain: "vanzasetia.site",
-    token: process.env.TOKEN_API,
-    htmlContent: false
-  });
 
   eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;
