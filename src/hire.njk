@@ -1,0 +1,70 @@
+---
+layout: layouts/base.njk
+title: Hire Me
+eleventyNavigation:
+  key: Hire Me
+  order: 1
+---
+
+<main id="main" class="hire flow" tabindex="-1">
+  <h1>
+    Create a Website under 936 Kilobytes for Optimal Performance
+  </h1>
+  <p>
+    You can provide a good user experience for your visitors by keeping your website under this size limit.
+  </p>
+  <p>
+    <a href="#meet-the-developer" class="cta">
+      Let me build your website
+    </a>
+  </p>
+  <h2>Showcase of my top projects</h2>
+  <p>Here are my best projects that will give you a feel about my skill. All links to the source code will take you to GitHub.</p>
+  {% for project in projects %}
+    {% include "home/card.njk" %}
+  {% endfor %}
+  {% note %} All of the designs are from
+  <a href="https://www.frontendmentor.io/"
+    >Frontend Mentor | Front-end coding challenges using a real-life workflow</a
+  >. {% endnote %}
+  <h2>Help people to get better at coding</h2>
+  <p>
+    I have given over 1500 suggestions on Frontend Mentor to help developers
+    gain knowledge and improve their skills. I want developers to be aware that
+    accessibility should be the default choice when developing websites.
+  </p>
+  <p>
+    You can see my written communication style by reading my suggestions. This
+    way you can get a glimpse of my personality.
+  </p>
+  <p>
+    <a href="https://frontendmentor.io/profile/vanzasetia/comments" class="cta">
+      See the suggestions that I give to developers
+    </a>
+  </p>
+  <h2 id="meet-the-developer" tabindex="-1">
+    Meet the developer
+  </h2>
+  {% image "../assets/images/vanzasetia.jpg", "Vanza Setia" %}
+  <p><strong>Need a frontend developer? Look no further!</strong></p>
+  <p>
+    I help people to create websites and my approach is different because I make
+    sure that they are fast and easy to use.
+  </p>
+  <p>
+    I am looking for a full time frontend developer for a junior level position.
+    But, I am open to all kinds of opportunities. <a href="/resume/">Learn more about me</a>.
+  </p>
+  <p>
+    Hire me, a frontend developer who cares about accessibility for your
+    website.
+  </p>
+  <p>
+    <a href="https://www.linkedin.com/in/vanzasetia/" class="cta">
+      Chat with me on LinkedIn
+    </a>
+  </p>
+  <p>
+    <a href="mailto:venusbumi2@gmail.com">Or contact me through email</a>
+  </p>
+</main>

@@ -1,76 +1,30 @@
 ---
 layout: layouts/base.njk
 title: Greetings! You Have Accessed Vanza Setia’s Website.
-numberOfLatestBlogsToShow: 5
+numberOfLatestBlogsToShow: 10
 ---
 
-<main id="main" class="home flow" tabindex="-1">
-  <h1>
-    Create a Website under 936 Kilobytes for Optimal Performance
-  </h1>
+<main id="main" class="flow" tabindex="-1">
+  <h1>You are safe here</h1>
+  <p>No trackers. No cookies. No analytics. No ads.</p>
+  <h2>Calm</h2>
+  <p>No autoplay video. No background music.</p>
+  <h2>Sharing</h2>
   <p>
-    You can provide a good user experience for your visitors by keeping your website under this size limit.
+    You can access all of my content. No signup. No time limit. No paywall. <a href="/archive/">Browse all my blog posts on the archive page</a>.
   </p>
-  <p>
-    <a href="#meet-the-developer" class="cta">
-      Let me build your website
-    </a>
-  </p>
-  <h2>Showcase of my top projects</h2>
-  <p>Here are my best projects that will give you a feel about my skill. All links to the source code will take you to GitHub.</p>
-  {% for project in projects %}
-    {% include "home/card.njk" %}
-  {% endfor %}
-  {% note %} All of the designs are from
-  <a href="https://www.frontendmentor.io/"
-    >Frontend Mentor | Front-end coding challenges using a real-life workflow</a
-  >. {% endnote %}
-  <h2>Help people to get better at coding</h2>
-  <p>
-    I have given over 1500 suggestions on Frontend Mentor to help developers
-    gain knowledge and improve their skills. I want developers to be aware that
-    accessibility should be the default choice when developing websites.
-  </p>
-  <p>
-    You can see my written communication style by reading my suggestions. This
-    way you can get a glimpse of my personality.
-  </p>
-  <p>
-    <a href="https://frontendmentor.io/profile/vanzasetia/comments" class="cta">
-      See the suggestions that I give to developers
-    </a>
-  </p>
-  <h2 id="meet-the-developer" tabindex="-1">
-    Meet the developer
-  </h2>
-  {% image "../assets/images/vanzasetia.jpg", "Vanza Setia" %}
-  <p><strong>Need a frontend developer? Look no further!</strong></p>
-  <p>
-    I help people to create websites and my approach is different because I make
-    sure that they are fast and easy to use.
-  </p>
-  <p>
-    I am looking for a full time frontend developer for a junior level position.
-    But, I am open to all kinds of opportunities. <a href="/about/">Learn more about me</a>.
-  </p>
-  <p>
-    Hire me, a frontend developer who cares about accessibility for your
-    website.
-  </p>
-  <p>
-    <a href="https://www.linkedin.com/in/vanzasetia/" class="cta">
-      Chat with me on LinkedIn
-    </a>
-  </p>
-  <p>
-    <a href="mailto:venusbumi2@gmail.com">Or contact me through email</a>
-  </p>
-  <h2>Blog Posts</h2>
-  <p>
-    I write about web accessibility, my learning experiences, and other things
-    related to frontend web development. <a href="/archive/">Have a look at all my blog posts on the archive page.</a>
-  </p>
-  <p>Below are five of my latest blog posts.</p>
+  <p>Below are ten of my latest blog posts.</p>
   {% set bloglist = collections.blog | head(-1 * numberOfLatestBlogsToShow) %}
   {% include "blog/list.njk" %}
+  <h2>Make it your website</h2>
+  <p>
+    All the source code for this website is available on <a href="https://github.com/vanzasetia/vanzasetia.site">GitHub</a> and <a href="https://codeberg.org/vanzasetia/vanzasetia.site">Codeberg</a>. GitHub is the mirror respository.
+  </p>
+  <h2>Be good-looking</h2>
+  <p>
+    Smile. A smile on your face makes you better. No plastic surgery can beat your smile.
+  </p>
+  <h2>Be grateful</h2>
+  <p>Remember all the good things that have happened in your life.</p>
+  <p>Be grateful. Be happy.</p>
 </main>

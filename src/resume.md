@@ -1,12 +1,8 @@
 ---
 layout: layouts/general.njk
-title: About Me
+title: Resume
 description:
   I am ranked among the top 10 developers out of 500K+ developers with 30+ projects under my belt at Frontend Mentor.
-eleventyNavigation:
-  key: About
-  title: About Me
-  order: 1
 ---
 
 ## Two years of extensive learning experience
