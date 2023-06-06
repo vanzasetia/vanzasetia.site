@@ -21,14 +21,6 @@ My website is using the following technology:
 - Node.js
 - WAI-ARIA
 
-## Features
-
-The website includes the following features:
-
-- Homepage: A showcase of my latest projects and blog posts.
-- Blog: A collection of my learning experiences.
-- About: A brief introduction to my skills, my interests, and my experience.
-
 ## Usage
 
 You can use the source code and modify it to create your own personal website.
