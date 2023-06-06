@@ -37,7 +37,6 @@
 }
 
 body {
-  --landmark-space: 7rem;
   min-height: 100vh;
   line-height: 1.6;
   text-rendering: optimizeSpeed;
@@ -46,12 +45,9 @@ body {
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background-color: var(--background);
   color: var(--foreground);
-  padding: 0 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   font-size: calc(1rem + 0.5vw);
-}
-
-body > * + * {
-  margin-top: var(--landmark-space);
 }
 
 /**
@@ -66,27 +62,6 @@ a {
 h2 a,
 h3 a {
   line-height: 1.6;
-}
-
-[href="#main"] {
-  position: absolute;
-  top: 2rem;
-  left: 0;
-  background-color: var(--foreground);
-  color: var(--background);
-  width: 1px;
-  height: 1px;
-  margin: 0;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 1rem;
-  outline-color: var(--foreground);
-}
-
-[href="#main"]:focus {
-  width: auto;
-  height: auto;
-  clip: auto;
 }
 
 h1,
@@ -127,7 +102,12 @@ footer {
 
 header,
 footer {
-  --page-block-space: 3rem;
+  text-align: center;
+}
+
+main {
+  margin-top: var(--landmark-space, 7rem);
+  margin-bottom: var(--landmark-space, 7rem);
 }
 
 header ul,
@@ -213,43 +193,68 @@ h3 + * {
   --space: 0.75em;
 }
 
+.skip-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 1rem;
+}
+
 nav[aria-labelledby="table-of-contents"] {
   margin-top: 3em;
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 1rem;
-  padding-top: var(--page-block-space);
+  padding-top: 2rem;
+}
+
+header > *,
+footer > * {
+  border-top: 0.3rem solid;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+header > *:last-child {
+  border-bottom: 0.3rem solid;
+}
+
+header [href] {
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 header [href="/"] {
-  display: inline-block;
+  font-size: var(--step-4);
 }
 
-[role="img"][aria-label="Home - Vanza Setia"] {
-  letter-spacing: -0.01em;
-  font-size: 2rem;
-  font-weight: 700;
+header ul,
+footer ul {
+  justify-content: center;
 }
 
 footer {
-  padding-bottom: var(--page-block-space);
-}
-
-footer p {
-  max-width: 50ch;
+  margin-bottom: 1rem;
 }
 
 footer h2 {
-  --space: 1.25em;
+  outline: 0.3rem solid;
+  outline-offset: -0.6em;
+}
+
+footer [href^="mailto"] {
+  font-size: var(--step-2);
 }
 
 .time {
   font-style: italic;
+}
+
+.blog-list > li + li {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-top: 0.1rem solid;
 }
 
 .note {
@@ -285,10 +290,6 @@ footer h2 {
   width: 100%;
 }
 
-.body-font-size-larger {
-  font-size: calc(1rem + 0.7vw);
-}
-
 .text-transform-uppercase {
   text-transform: uppercase;
   letter-spacing: 0.01em;
@@ -311,17 +312,8 @@ footer h2 {
     font-size: var(--step-2);
   }
 
-  body {
+  main {
     --landmark-space: clamp(5rem, calc(4.28rem + 3.18vw), 7rem);
-  }
-
-  header,
-  footer {
-    --page-block-space: clamp(1.5rem, calc(0.96rem + 2.39vw), 3rem);
-  }
-
-  .body-font-size-larger {
-    font-size: var(--step-1);
   }
 }
 
@@ -336,7 +328,8 @@ footer h2 {
  */
 @supports (padding-inline: 2rem) {
   header ul,
-  footer ul {
+  footer ul,
+  .skip-container {
     gap: 1rem;
   }
 

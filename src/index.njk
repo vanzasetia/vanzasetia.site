@@ -5,26 +5,14 @@ numberOfLatestBlogsToShow: 10
 ---
 
 <main id="main" class="flow" tabindex="-1">
-  <h1>You are safe here</h1>
-  <p>No trackers. No cookies. No analytics. No ads.</p>
-  <h2>Calm</h2>
-  <p>No autoplay video. No background music.</p>
-  <h2>Sharing</h2>
+  <h1>Blog Posts</h1>
   <p>
-    You can access all of my content. No signup. No time limit. No paywall. <a href="/archive/">Browse all my blog posts on the archive page</a>.
+    I am interested in HTML, responsive design without breakpoints, website performance, progressive enhancement, website accessibility, and privacy on the internet.
+  </p>
+  <p>
+    You can access {{ collections.blog.length }} blog posts on this website. No signup. No time limit. No paywall. <a href="/archive/">Browse all my blog posts on the archive page</a>.
   </p>
   <p>Below are ten of my latest blog posts.</p>
   {% set bloglist = collections.blog | head(-1 * numberOfLatestBlogsToShow) %}
   {% include "blog/list.njk" %}
-  <h2>Make it your website</h2>
-  <p>
-    All the source code for this website is available on <a href="https://github.com/vanzasetia/vanzasetia.site">GitHub</a> and <a href="https://codeberg.org/vanzasetia/vanzasetia.site">Codeberg</a>. GitHub is the mirror respository.
-  </p>
-  <h2>Be good-looking</h2>
-  <p>
-    Smile. A smile on your face makes you better. No plastic surgery can beat your smile.
-  </p>
-  <h2>Be grateful</h2>
-  <p>Remember all the good things that have happened in your life.</p>
-  <p>Be grateful. Be happy.</p>
 </main>

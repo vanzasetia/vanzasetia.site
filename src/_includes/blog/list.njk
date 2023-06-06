@@ -1,7 +1,20 @@
-<ul>
+<ul class="blog-list">
 {% for blog in bloglist | reverse %}
-	<li>
-		<a href="{{ blog.url }}">{% if blog.data.title %}{{ blog.data.title }}{% else %}<code>{{ blog.url }}</code>{% endif %}</a>
+	<li class="flow">
+		<h2>
+			<a href="{{ blog.url }}">{{ blog.data.title }}</a>
+		</h2>
+		<p class="time">
+			Published on
+			<time datetime="{{ blog.data.date | htmlDateString }}">
+				{{ blog.data.date | blogDate }}</time>. 
+			{% if blog.data.dateModified %}
+			Updated on
+			<time datetime="{{ blog.data.dateModified | htmlDateString }}"
+				>{{ blog.data.dateModified | blogDate }}</time
+			>.
+			{% endif %}
+		</p>
 	</li>
 {% endfor %}
 </ul>
