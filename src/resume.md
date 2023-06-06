@@ -17,17 +17,6 @@ You can check out all of them on my Frontend Mentor profile.
 
 [Frontend Mentor | Vanza Setia's profile](https://www.frontendmentor.io/profile/vanzasetia)
 
-## Interest
-
-I am interested in:
-
-- Web accessibility
-- Responsive design
-- Progressive enhancement
-- Web performance
-
-I love applying my skills to help companies create a website that can be accessed by different types of users and tools. As a result, the company's website will have more engagement and rank higher in search results.
-
 ## Volunteer
 
 *December 2022 - Jan 2023*
