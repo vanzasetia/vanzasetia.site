@@ -242,6 +242,7 @@ footer {
 footer h2 {
   outline: 0.3rem solid;
   outline-offset: -0.6em;
+  text-transform: uppercase;
 }
 
 footer [href^="mailto"] {
@@ -289,11 +290,6 @@ footer [href^="mailto"] {
   border: 0.3rem solid;
   max-width: 18.75rem;
   width: 100%;
-}
-
-.text-transform-uppercase {
-  text-transform: uppercase;
-  letter-spacing: 0.01em;
 }
 
 @supports (font-size: clamp(1rem, calc(0.82rem + 0.8vw), 1.5rem)) {
