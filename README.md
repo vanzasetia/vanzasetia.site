@@ -93,7 +93,7 @@ Icons are coming from [Atlas Icons](https://atlasicons.vectopus.com/) with 45px 
 
 ## License
 
-[Unlicense](./LICENSE)
+[Unlicense](./UNLICENSE)
 
 > Why Use the Unlicense?
 >
