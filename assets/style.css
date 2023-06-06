@@ -133,8 +133,7 @@ ul > li + li {
 }
 
 header ul li,
-footer ul li,
-.skip-container p {
+footer ul li {
   margin-top: 0;
   padding: 0.5rem;
 }
@@ -195,9 +194,6 @@ h3 + * {
 }
 
 .skip-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   text-align: center;
   margin-top: 1rem;
 }
@@ -326,14 +322,12 @@ footer [href^="mailto"] {
  */
 @supports (padding-inline: 2rem) {
   header ul,
-  footer ul,
-  .skip-container {
+  footer ul {
     gap: 1rem;
   }
 
   header ul li,
-  footer ul li,
-  .skip-container p {
+  footer ul li {
     padding: 0;
   }
 }
