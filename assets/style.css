@@ -133,7 +133,8 @@ ul > li + li {
 }
 
 header ul li,
-footer ul li {
+footer ul li,
+.skip-container p {
   margin-top: 0;
   padding: 0.5rem;
 }
@@ -334,7 +335,8 @@ footer [href^="mailto"] {
   }
 
   header ul li,
-  footer ul li {
+  footer ul li,
+  .skip-container p {
     padding: 0;
   }
 }
