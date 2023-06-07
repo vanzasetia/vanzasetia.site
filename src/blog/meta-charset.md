@@ -1,6 +1,7 @@
 ---
 title: Meta Charset
 date: 2023-06-04
+dateModified: 2023-06-07
 copyDescription: false
 tableOfContents: false
 ---
@@ -31,4 +32,4 @@ Learn more about the process of the browsers deciding the character encoding of 
 
 [UTF-8 - Wikipedia](https://en.wikipedia.org/wiki/UTF-8)
 
-[<meta>: The metadata element - HTML: HyperText Markup Language | MDN #attr-charset](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#attr-charset)
+[`<meta>`: The metadata element - HTML: HyperText Markup Language | MDN #attr-charset](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#attr-charset)
