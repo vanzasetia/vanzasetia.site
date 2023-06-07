@@ -4,17 +4,9 @@
 		<h2>
 			<a href="{{ blog.url }}">{{ blog.data.title }}</a>
 		</h2>
-		<p class="time">
-			Published on
-			<time datetime="{{ blog.data.date | htmlDateString }}">
-				{{ blog.data.date | blogDate }}</time>. 
-			{% if blog.data.dateModified %}
-			Updated on
-			<time datetime="{{ blog.data.dateModified | htmlDateString }}"
-				>{{ blog.data.dateModified | blogDate }}</time
-			>.
-			{% endif %}
-		</p>
+		{% set publishedDate = blog.data.date %}
+		{% set dateModified = blog.data.dateModified %}
+		{% include "blog/date.njk" %}
 	</li>
 {% endfor %}
 </ul>

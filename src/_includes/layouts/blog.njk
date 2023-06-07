@@ -2,6 +2,9 @@
 layout: layouts/base.njk
 ---
 
+{% set publishedDate = page.date %}
+{% set dateModified = dateModified %}
+
 <main id="main" class="flow" tabindex="-1">
   <h1>{{ title }}</h1>
   {% include "blog/date.njk" %}
