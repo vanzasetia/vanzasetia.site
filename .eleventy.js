@@ -59,12 +59,6 @@ module.exports = function (eleventyConfig) {
     );
   });
 
-  eleventyConfig.addFilter("webmentionPostDate", (dateObj) => {
-    return DateTime.fromISO(dateObj, { zone: "utc" }).toFormat(
-      "dd LLLL yyyy, hh:mma"
-    );
-  });
-
   eleventyConfig.addFilter("htmlDateString", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toISO();
   });
