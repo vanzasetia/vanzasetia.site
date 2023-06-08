@@ -18,7 +18,9 @@ module.exports = function (eleventyConfig) {
     "./assets/svg": "/svg",
     "./assets/favicons/favicon.ico": "/favicon.ico",
     "./src/manifest.json": "/manifest.json",
-    "./src/robots.txt": "/robots.txt"
+    "./src/robots.txt": "/robots.txt",
+    "./src/pgp/vanzasetia.asc": "/vanzasetia.asc",
+    "./src/pgp/vanzasetia.pgp": "/vanzasetia.pgp"
   });
 
   eleventyConfig.addWatchTarget("src/**/*.{svg,webp,png,jpeg}");
