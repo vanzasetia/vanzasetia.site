@@ -304,7 +304,12 @@ module.exports = [
         description: `Compare two colors to see the contrast of them.`,
         url: "https://colorable.jxnblk.com/"
       },
-
+      {
+        title: `Free Broken Link Checking Tool - Dead Link Checker`,
+        description:
+          "You can check the links on your entire website for free and without creating an account.",
+        url: "https://www.deadlinkchecker.com/"
+      },
       {
         title: "Caninclude",
         description: `If you get confused about whether anchor tag is valid to be a child element of the code element, then you can use this tool to verify that.`,
@@ -329,6 +334,11 @@ module.exports = [
         title: "Mailtolink.me | The Mailto Link Generator",
         description: `Generate a mailto link easily.`,
         url: "https://mailtolink.me/"
+      },
+      {
+        title: `Ngx-Kanban | Tasks and To-Dos`,
+        description: "A simple kanban board on a web browser.",
+        url: "https://simple-kanban.netlify.app/"
       }
     ]
   },
