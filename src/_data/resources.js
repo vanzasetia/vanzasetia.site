@@ -385,6 +385,32 @@ module.exports = [
     ]
   },
   {
+    category: "Best practices",
+    description:
+      "If you do not have one, you can follow these guidelines first. Then, as you gain more experience, you will be able to develop your own guidelines.",
+    links: [
+      {
+        title:
+          "CSS Guidelines (2.2.5) – High-level advice and guidelines for writing sane, manageable, scalable CSS",
+        description:
+          "High-level advice and guidelines for writing sane, manageable, scalable CSS",
+        url: "https://cssguidelin.es/"
+      },
+      {
+        title:
+          "GitHub - ryanmcdermott/clean-code-javascript: Clean Code concepts adapted for JavaScript",
+        description: "Try this.",
+        url: "https://github.com/ryanmcdermott/clean-code-javascript"
+      },
+      {
+        title: "Sass Guidelines",
+        description:
+          "An opinionated style guide for writing sane, maintainable and scalable Sass.",
+        url: "https://sass-guidelin.es/"
+      }
+    ]
+  },
+  {
     category: "Games",
     description:
       "Tired of coding? Why don't you try playing some of these games to relax?",
