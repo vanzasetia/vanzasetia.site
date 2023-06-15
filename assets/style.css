@@ -128,13 +128,12 @@ ul ul,
 ul ol,
 ol ol,
 ol ul,
-ol > li + li,
-ul > li + li {
+li + li {
   margin-top: 1rem;
 }
 
-header ul li,
-footer ul li {
+header li,
+footer li {
   margin-top: 0;
   padding: 0.5rem;
 }
@@ -327,8 +326,8 @@ footer [href^="mailto"] {
     gap: 1rem;
   }
 
-  header ul li,
-  footer ul li {
+  header li,
+  footer li {
     padding: 0;
   }
 }
