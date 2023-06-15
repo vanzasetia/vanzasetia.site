@@ -240,6 +240,11 @@ module.exports = [
         title: "Free Website Speed Test | DebugBear",
         description: `Test the performance of your website for free.`,
         url: "https://www.debugbear.com/test/website-speed"
+      },
+      {
+        title: "Yellow Lab Tools - Page Speed audit",
+        description: `This tool checks the performance of your website. It also analyzes the code of your website. I like the fact that it checks for bad CSS like duplicated selectors, duplicated properties, redundant selectors, and more.`,
+        url: "https://yellowlab.tools/"
       }
     ]
   },
