@@ -11,15 +11,15 @@ You may have received advice to put all the CSS in a separate file.
 
 <blockquote class="flow">
 
-Do not use inline styling. You should put all the styling in a separate stylesheet.
+Do not use internal styling. You should put all the styling in a separate stylesheet.
 
 </blockquote>
 
 That is good advice but it does not always true.
 
-If you only have one HTML page, inline styling is the best choice. The browser only needs to download a single HTML page. That is good for performance.
+If you only have one HTML page, internal styling is the best choice. The browser only needs to download a single HTML page. That is good for performance.
 
-If you use Eleventy and have little styling, you can use inline styling for the production code.
+If you use Eleventy and have little styling, you can use internal styling for the production code.
 
 Another piece of advice is to follow best practices. This is another good piece of advice but does not always true.
 
