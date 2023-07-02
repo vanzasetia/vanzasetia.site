@@ -99,6 +99,23 @@ module.exports = [
     ]
   },
   {
+    category: "Blogging platform",
+    description:
+      "Once you have gained some knowledge, why not teach it to others? You can write and share what you have learned to improve your knowledge.",
+    links: [
+      {
+        title: "Bear Blog",
+        description: `A privacy-first, no-nonsense, super-fast blogging platform. No trackers, no javascript, no stylesheets. Just your words.`,
+        url: "https://bearblog.dev/"
+      },
+      {
+        title: "Mataroa — Blogging platform for minimalists",
+        description: `Naked blogging platform, for minimalists. Just write.`,
+        url: "https://mataroa.blog/"
+      }
+    ]
+  },
+  {
     category: "Videos",
     description:
       "You can get a lot of information from watching experts talk about web development.",
