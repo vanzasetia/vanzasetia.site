@@ -220,6 +220,11 @@ module.exports = [
         title: "Hemingway Editor",
         description: `It makes my writing clear and bold by highlighting potential words that can be removed.`,
         url: "https://hemingwayapp.com/"
+      },
+      {
+        title: "Lingva Translate",
+        description: `Alternative front-end for Google Translate, serving as a Free and Open Source translator with over a hundred languages available. I use this to translate words or sentences from Indonesian to English and vice versa.`,
+        url: "https://lingva.ml/"
       }
     ]
   },
