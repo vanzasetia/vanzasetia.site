@@ -89,6 +89,12 @@ module.exports = [
         title: "Colour Blind Awareness",
         description: `You can learn about different types of color blindness.`,
         url: "https://www.colourblindawareness.org/"
+      },
+      {
+        title:
+          "kdeldycke/awesome-falsehood: 😱 Falsehoods Programmers Believe in",
+        description: `The falsehood articles listed there give a comprehensive list of those false-beliefs that you should be aware of, to help you become a better programmer.`,
+        url: "https://github.com/kdeldycke/awesome-falsehood"
       }
     ]
   },
