@@ -2,6 +2,7 @@
 title: Access All Content without an Account
 description: You can find out what people are thinking without having to sign up or sign in.
 date: 2023-06-23
+dateModified: 2023-07-02
 tableOfContents: false
 ---
 
@@ -44,6 +45,13 @@ Then, I clicked one of the posts and got another popup without the "X" icon. It 
 I searched "linkedin frontend alternatives" and the results were blog posts about alternatives platform for LinkedIn.
 
 I could not find any front-end alternatives for LinkedIn.
+
+
+## Update: 02 July 2023
+
+**You must be signed in and use Twitter to view tweets.**
+
+I try using Nitter instances, nothing is working.
 
 ## Collections of front-end alternatives
 
