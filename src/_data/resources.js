@@ -10,6 +10,18 @@ module.exports = [
         url: "https://fedmentor.dev/"
       },
       {
+        title:
+          "Easy Checks – A First Review of Web Accessibility | Web Accessibility Initiative (WAI) | W3C",
+        description: `This page helps you start to assess the accessibility of a web page. With these simple steps, you can get an idea whether or not accessibility is addressed in even the most basic way.`,
+        url: "https://www.w3.org/WAI/test-evaluate/preliminary/"
+      },
+      {
+        title:
+          "Doing a basic accessibility check if you cannot do a detailed one - GOV.UK",
+        description: `Another basic accessibility check.`,
+        url: "https://www.gov.uk/government/publications/doing-a-basic-accessibility-check-if-you-cant-do-a-detailed-one/doing-a-basic-accessibility-check-if-you-cant-do-a-detailed-one"
+      },
+      {
         title: "Solid Start",
         description: `This is a good website for everyone that getting started to learn about web accessibility. It also provides some great resources.`,
         url: "https://www.solidstart.info/"
