@@ -1,7 +1,7 @@
 ---
 title: Discovering the Different Types of Websites
 date: 2023-05-09
-dateModified: 2023-05-17
+dateModified: 2023-07-03
 copyDescription: false
 ---
 
@@ -29,9 +29,9 @@ Like anything in this world, it can be used to do bad things. For example, gambl
 
 The IndieWeb is a community of independent & personal websites connected by simple standards, based on the principles of: owning your domain & using it as your primary identity, publishing on your own site (optionally syndicating elsewhere), and owning your data.
 
-From: [IndieWeb](https://indieweb.org/)
-
 </blockquote>
+
+— [IndieWeb](https://indieweb.org/)
 
 IndieWeb is about having a personal website and owning your content. You post your content on your own website. This way, your content is yours.
 
@@ -59,9 +59,9 @@ This one is what I usually use on a day-to-day basis.
 
 The Open Web Platform is the collection of open (royalty-free) technologies which enables the Web. Using the Open Web Platform, everyone has the right to implement a software component of the Web without requiring any approvals or waiving license fees.
 
-From: [Open Web Platform - W3C Wiki](https://www.w3.org/wiki/Open_Web_Platform)
-
 </blockquote>
+
+— [Open Web Platform - W3C Wiki](https://www.w3.org/wiki/Open_Web_Platform)
 
 Open web is not a different type of website. It is the foundation of any website.
 

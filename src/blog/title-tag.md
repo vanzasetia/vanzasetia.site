@@ -1,6 +1,7 @@
 ---
 title: Title Tag
 date: 2023-06-07
+dateModified: 2023-07-03
 copyDescription: false
 tableOfContents: false
 ---
@@ -13,9 +14,9 @@ The `<title>` tag—not to be confused with the `title` attribute—is the follo
 
 The `<title>` HTML element defines the document's title that is shown in a browser's title bar or a page's tab.
 
-**From:** [`<title>`: The Document Title element - HTML: HyperText Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
-
 </blockquote>
+
+— [`<title>`: The Document Title element - HTML: HyperText Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
 
 In short, it is used to give a title to your webpage.
 

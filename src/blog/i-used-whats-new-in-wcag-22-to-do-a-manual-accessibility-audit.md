@@ -3,6 +3,7 @@ title: I Used "What's New in WCAG 2.2" to Do a Manual Accessibility Audit
 description:
   I want to learn about the future of Web Content Accessibility Guidelines (WCAG). So, I am going to do a manual accessibility audit on this website (VanzaSetia.site).
 date: 2023-05-06
+dateModified: 2023-07-03
 tocMaxLevel3: true
 ---
 
@@ -14,9 +15,9 @@ WCAG version 2.2 will be finished in 2023 third quarter (July, August, or Septem
 
 WCAG 2.2 is scheduled to be completed and published in 2023 Q3 (July, August, September)
 
-From: [What's New in WCAG 2.2 Draft | Web Accessibility Initiative (WAI) | W3C](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/)
-
 </blockquote>
+
+— [What's New in WCAG 2.2 Draft | Web Accessibility Initiative (WAI) | W3C](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/)
 
 It will be coming this year. This website should be prepared.
 
@@ -78,9 +79,9 @@ Exceptions:
 - The focus indicator is determined by the user agent and cannot be adjusted by the author, or
 - The focus indicator and the indicator's background color are not modified by the author.
 
-From: [Understanding Success Criterion 2.4.11: Focus Appearance | WAI | W3C](https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance.html)
-
 </blockquote>
+
+— [Understanding Success Criterion 2.4.11: Focus Appearance | WAI | W3C](https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance.html)
 
 I do not understand it. I read the "Understanding Success Criterion 2.4.11: Focus Appearance" and still do not understand it.
 
@@ -118,9 +119,9 @@ The `outline-width` for the focus indicator on this website is **4 CSS pixels**.
 
 Now let’s assume, for demonstration purposes, that we’re designing focus styles for a 150px by 75px button. The perimeter of this button is: 150px + 150px + 75px + 75px - 4px = 446px.
 
-An example from Sara Soueidan — [A guide to designing accessible, WCAG-compliant focus indicators](https://www.sarasoueidan.com/blog/focus-indicators/)
-
 </blockquote>
+
+— [A guide to designing accessible, WCAG-compliant focus indicators](https://www.sarasoueidan.com/blog/focus-indicators/)
 
 I understand how to calculate the perimeter of the element. For example, if a button has a width of 200px and a height of 50px, the perimeter of this button is: 200px + 200px + 50px + 50px - 4px = 496px.
 
@@ -230,9 +231,9 @@ The purpose of accessible authentication is to eliminate the need for users to p
 
 **Personal Content**: The cognitive function test is to identify non-text content the user provided to the website.
 
-From: [What's New in WCAG 2.2 Draft | Web Accessibility Initiative (WAI) | W3C #338-accessible-authentication-minimum-aa](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/#338-accessible-authentication-minimum-aa)
-
 </blockquote>
+
+— [What's New in WCAG 2.2 Draft | Web Accessibility Initiative (WAI) | W3C #338-accessible-authentication-minimum-aa](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/#338-accessible-authentication-minimum-aa)
 
 This website does not have any authentication.
 

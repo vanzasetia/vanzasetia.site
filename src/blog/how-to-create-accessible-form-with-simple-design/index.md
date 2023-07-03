@@ -4,7 +4,7 @@ description:
   You must ensure that your form is accessible to different users. This article
   will help you understand how to create an accessible form.
 date: 2022-10-07
-dateModified: 2023-02-22
+dateModified: 2023-07-03
 tocMaxLevel3: true
 ---
 
@@ -102,8 +102,8 @@ ARIA (Accessible Rich Internet Application) attributes allow us to extend the ab
 It's important to know that [**no ARIA is better than bad ARIA**](https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/). So, you need to have a reason to use ARIA attributes. Otherwise, don't use them.
 
 > _"Increased ARIA usage on pages correlated to higher detected errors. The more ARIA attributes that were present, the more detected accessibility errors could be expected."_ 
->
-> From [WebAIM: The WebAIM Million - The 2022 report on the accessibility of the top 1,000,000 home pages](https://webaim.org/projects/million/).
+
+— [WebAIM: The WebAIM Million - The 2022 report on the accessibility of the top 1,000,000 home pages](https://webaim.org/projects/million/)
 
 You need to use `aria-live` attribute to make the alert message get pronounced by screen readers.
 

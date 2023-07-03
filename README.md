@@ -98,5 +98,5 @@ Icons are coming from [Atlas Icons](https://atlasicons.vectopus.com/) with 45px 
 > Why Use the Unlicense?
 >
 > Because you have more important things to do than enriching lawyers or imposing petty restrictions on users of your code.
->
-> From [Unlicense.org » Unlicense Yourself: Set Your Code Free](https://unlicense.org/)
+
+— [Unlicense.org » Unlicense Yourself: Set Your Code Free](https://unlicense.org/)

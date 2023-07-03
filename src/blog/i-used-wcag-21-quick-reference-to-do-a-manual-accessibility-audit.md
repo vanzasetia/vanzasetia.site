@@ -3,6 +3,7 @@ title: I Used WCAG 2.1 Quick Reference to Do a Manual Accessibility Audit
 description:
   I want to learn about Web Content Accessibility Guidelines (WCAG). So, I did a manual accessibility audit of this website (vanzasetia.site).
 date: 2023-04-08
+dateModified: 2023-07-03
 tocMaxLevel3: true
 ---
 
@@ -139,7 +140,7 @@ I keep the underline on the link element. This means that the link is not convey
 
 > This requirement refers to places where body text and link text appear together and where color alone is used to identify links (meaning the underline has been removed).
 
-From: [WebAIM: Contrast and Color Accessibility - Understanding WCAG 2 Contrast and Color Requirements #only](https://webaim.org/articles/contrast/#only)
+— [WebAIM: Contrast and Color Accessibility - Understanding WCAG 2 Contrast and Color Requirements #only](https://webaim.org/articles/contrast/#only)
 
 [Understanding Success Criterion 1.4.3: Contrast (Minimum) | WAI | W3C](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
 
@@ -398,7 +399,7 @@ I am not sure about this.
 
 > This provision is included at Level AAA because it cannot be applied to all types of content and it may not always be possible to insert headings.
 
-From: [Understanding Success Criterion 2.4.10: Section Headings | WAI | W3C](https://www.w3.org/WAI/WCAG21/Understanding/section-headings.html)
+— [Understanding Success Criterion 2.4.10: Section Headings | WAI | W3C](https://www.w3.org/WAI/WCAG21/Understanding/section-headings.html)
 
 ## Guideline 2.5 – Input Modalities
 
@@ -615,12 +616,16 @@ Also, some information may not be relevant to the current situation of this webs
 Another thing to keep in mind is following WCAG and getting most of them checked does not guarantee that a website is accessible.
 
 <blockquote class="flow">
-  <p>As ridiculous as this is, this isn't even a WCAG failure. And this is an example proof of why WCAG conformance does not guarantee usability.</p>
-  <p>WCAG is the bare minimum for accessibility, but your job does not end with ticking items off a list.</p>
-  <p>Perform usability tests when u can.</p>
+
+As ridiculous as this is, this isn't even a WCAG failure. And this is an example proof of why WCAG conformance does not guarantee usability.
+
+WCAG is the bare minimum for accessibility, but your job does not end with ticking items off a list.
+
+Perform usability tests when u can.
+
 </blockquote>
 
-Source: [01 March 2023, Sara Soueidan on Twitter](https://twitter.com/SaraSoueidan/status/1630816690115166210)
+— [01 March 2023, Sara Soueidan on Twitter](https://twitter.com/SaraSoueidan/status/1630816690115166210)
 
 More people say the same thing too.
 

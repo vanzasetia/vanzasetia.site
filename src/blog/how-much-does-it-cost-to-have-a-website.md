@@ -2,6 +2,7 @@
 title: How Much Does it Cost to Have a Website?
 description: This is the price that I have to pay to have this website.
 date: 2023-05-21
+dateModified: 2023-07-03
 tableOfContents: false
 ---
 
@@ -13,9 +14,9 @@ I got the idea of writing this from the following question:
 
 Is running a personal website still that complex?
 
-From: [Website complexities – Manu](https://manuelmoreale.com/website-complexities)
-
 </blockquote>
+
+— [Website complexities – Manu](https://manuelmoreale.com/website-complexities)
 
 I am still learning about web development. I am still considering myself new at coding. So I still remember how much it cost to have a personal website.
 

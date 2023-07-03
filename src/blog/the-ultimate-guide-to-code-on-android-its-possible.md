@@ -6,7 +6,7 @@ description:
   article, I'm going to tell you everything you need to know to code on your
   Android device."
 date: 2022-01-13
-dateModified: 2023-01-26
+dateModified: 2023-07-03
 ---
 
 ## Introduction
@@ -93,7 +93,8 @@ For the second point of the limitations, if your phone is Android 10 or lower, y
 > - The `Android/data/` directory and all subdirectories.
 > - The `Android/obb/` directory and all subdirectories.
 >
-> \- From [Android Developers page about _"Storage updates in Android 11"_](https://developer.android.com/about/versions/11/privacy/storage#file-access)
+
+— [Android Developers page about _"Storage updates in Android 11"_](https://developer.android.com/about/versions/11/privacy/storage#file-access)
 
 Meaning that you can't access the `Android/data/io.spck`.
 
@@ -120,7 +121,8 @@ Now, let's dive into Termux!
 What is Termux?
 
 > Termux is an Android terminal emulator and Linux environment application that works directly with no rooting or setup required.
-> \- From the [Termux Wiki main page](https://wiki.termux.com/wiki/Main_Page)
+
+— [Termux Wiki main page](https://wiki.termux.com/wiki/Main_Page)
 
 Termux is the best terminal for Android. Here are the reasons:
 
