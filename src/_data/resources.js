@@ -112,6 +112,21 @@ module.exports = [
         title: "GitHub Pages: The Missing Manual | Simon Willison’s TILs",
         description: `GitHub Pages is an excellent free hosting platform, but the documentation is missing out on some crucial details.`,
         url: "https://til.simonwillison.net/github/github-pages"
+      },
+      {
+        title: "Deceptive Patterns - Home",
+        description: `Deceptive patterns (also known as “dark patterns”) are tricks used in websites and apps that make you do things that you didn't mean to, like buying or signing up for something.`,
+        url: "https://www.deceptive.design/"
+      },
+      {
+        title: "The HTML Hell Page",
+        description: `A list of things to do when creating a website that comes from hell. Please do not create it.`,
+        url: "http://www.catb.org/~esr/html-hell.html"
+      },
+      {
+        title: "Free For Life",
+        description: `A massive list including a huge amount of products and services that are completely free!`,
+        url: "https://free-for.life/#/"
       }
     ]
   },
@@ -474,6 +489,11 @@ module.exports = [
         title: "TypeRacer - Play Typing Games and Race Friends",
         description: `This is a place for me to type something other than code.`,
         url: "https://play.typeracer.com/"
+      },
+      {
+        title: "The Useless Web",
+        description: `A collection of games to play in your browser. I like the optical toys.`,
+        url: "https://theuselessweb.com/"
       },
       {
         title: "dulvui/ball2box: Casual ball game created with Godot Engine.",
