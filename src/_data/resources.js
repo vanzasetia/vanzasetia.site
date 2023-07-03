@@ -107,6 +107,11 @@ module.exports = [
           "kdeldycke/awesome-falsehood: 😱 Falsehoods Programmers Believe in",
         description: `The falsehood articles listed there give a comprehensive list of those false-beliefs that you should be aware of, to help you become a better programmer.`,
         url: "https://github.com/kdeldycke/awesome-falsehood"
+      },
+      {
+        title: "GitHub Pages: The Missing Manual | Simon Willison’s TILs",
+        description: `GitHub Pages is an excellent free hosting platform, but the documentation is missing out on some crucial details.`,
+        url: "https://til.simonwillison.net/github/github-pages"
       }
     ]
   },
