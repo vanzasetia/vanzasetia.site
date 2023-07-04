@@ -120,13 +120,18 @@ module.exports = [
       },
       {
         title: "The HTML Hell Page",
-        description: `A list of things to do when creating a website that comes from hell. Please do not create it.`,
+        description: `A list of things to do when creating a website that comes from hell. Please do not create an HTML Hell Page.`,
         url: "http://www.catb.org/~esr/html-hell.html"
       },
       {
         title: "Free For Life",
         description: `A massive list including a huge amount of products and services that are completely free!`,
         url: "https://free-for.life/#/"
+      },
+      {
+        title: "Your Personal Web Site",
+        description: `Bill Dietrich created a list that you can do to set up a personal website.`,
+        url: "https://www.billdietrich.me/YourPersonalWebSite.html"
       }
     ]
   },
