@@ -109,6 +109,12 @@ module.exports = [
         url: "https://github.com/kdeldycke/awesome-falsehood"
       },
       {
+        title:
+          "GitHub - denysdovhan/wtfjs: 🤪 A list of funny and tricky JavaScript examples",
+        description: `JavaScript is quite a funny language with tricky parts. Some of them can quickly turn our everyday job into hell, and some of them can make us laugh out loud.`,
+        url: "https://github.com/denysdovhan/wtfjs"
+      },
+      {
         title: "GitHub Pages: The Missing Manual | Simon Willison’s TILs",
         description: `GitHub Pages is an excellent free hosting platform, but the documentation is missing out on some crucial details.`,
         url: "https://til.simonwillison.net/github/github-pages"
