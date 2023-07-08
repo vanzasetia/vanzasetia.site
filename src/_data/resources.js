@@ -481,6 +481,30 @@ module.exports = [
         title: `Ngx-Kanban | Tasks and To-Dos`,
         description: "A simple kanban board on a web browser.",
         url: "https://simple-kanban.netlify.app/"
+      },
+      {
+        title: "Blacklight – The Markup",
+        description:
+          "A real-time website privacy inspector. You can scan any website to see trackers or ads on that website.",
+        url: "https://themarkup.org/blacklight"
+      },
+      {
+        title:
+          "Website Carbon Calculator v3 | What's your site's carbon footprint?",
+        description: "Estimate your web page carbon footprint.",
+        url: "https://www.websitecarbon.com/"
+      },
+      {
+        title: "Free Online EU Cookie Law Analyzer | CookieMetrix",
+        description:
+          "Determines if your website is not comply with EU Cookie Law.",
+        url: "https://www.cookiemetrix.com/"
+      },
+      {
+        title: "What Does My Site Cost?",
+        description:
+          "Find out how much it costs for someone to use your site on mobile networks around the world.",
+        url: "https://whatdoesmysitecost.com/"
       }
     ]
   },
