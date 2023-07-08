@@ -159,7 +159,7 @@ module.exports = [
     ]
   },
   {
-    category: "Videos",
+    category: "Conference Talks",
     description:
       "You can get a lot of information from watching experts talk about web development.",
     links: [
@@ -213,6 +213,72 @@ module.exports = [
           "Sophie Koonin – This Website Is under Construction, a Love Letter to the Personal Website – btconf - YouTube",
         description: `Personal websites are wild. Those websites are the places to do experiment, post anything you like, and many other things. This talk is about how websites have evolved from the early days to now.`,
         url: "https://www.youtube.com/watch?v=2ZUqa-lTbnU"
+      },
+      {
+        title:
+          "AXSchat with Heydon Pickering. UX designer, accessibility advocate, and illustrator. - YouTube",
+        description: `"Designing is thinking and developing is doing and if you can't do either of those or you can't do both at the same time then you are not awake basically.", said Heydon Pickering at 37:26`,
+        url: "https://www.youtube.com/watch?v=ykFcC-21Ltg"
+      },
+      {
+        title:
+          "Andy Bell – Be the browser’s mentor, not its micromanager - YouTube",
+        description: `Andy Bell shows you how to use modern CSS to create responsive website without media queries.`,
+        url: "https://www.youtube.com/watch?v=5uhIiI9Ld5M"
+      },
+      {
+        title:
+          "CSS for Software Engineers for CSS Developers – Harry Roberts / Front-Trends 2016 - YouTube",
+        description: `Harry Roberts explains how to use programming principles—such as Don't Repeat Yourself (DRY), The Single Responsibility Principle, and many more—to write CSS.`,
+        url: "https://www.youtube.com/watch?v=wFn5nel3j6w"
+      },
+      {
+        title:
+          "FaCSSt: CSS & Performance. Harry Roberts. JS Fest 2018 - YouTube",
+        description: `Harry Roberts shares seven ways to improve CSS performance in a room full of JavaScript developers.`,
+        url: "https://www.youtube.com/watch?v=OsYgrfx_MqQ"
+      },
+      {
+        title:
+          "From Milliseconds to Millions: The Numbers Driving Web Perf | Harry Roberts | performance.now() 2019 - YouTube",
+        description: `"Don't do it for the money, but never do it for no money." — Oliver Reichenstein, a friend of Harry Roberts`,
+        url: "https://www.youtube.com/watch?v=cXLOIIJ1UaE"
+      },
+      {
+        title: `Harry Roberts - Get Your "head" Straight - YouTube`,
+        description: `Despite being the only section of a website that a user never sees, the head element is arguably the most important. It is bound to its own unique set of rules and often governs the overall speed of the page.`,
+        url: "https://www.youtube.com/watch?v=MHyAOZ45vnU"
+      },
+      {
+        title: "Harry Roberts - Optimising Largest Contentful Paint - YouTube",
+        description: `Harry Roberts shares some ways to optimize Largest Contentful Paint (LCP).`,
+        url: "https://www.youtube.com/watch?v=nx032QoHscw"
+      },
+      {
+        title: "Harry Roberts - Why Fast Matters - YouTube",
+        description: `With more and more emerging markets coming online, and more and more apps moving to the web platform, we’re reaching an intersection where connections are getting slower and websites are getting heavier. In this talk, Harry Roberts will teach us what these emerging markets mean to us, and how we can begin to move in the right direction.`,
+        url: "https://www.youtube.com/watch?v=gGAOigMbBwo"
+      },
+      {
+        title:
+          "Refactoring CSS Without Losing Your Mind - Harry Roberts @ WeAreDevelopers Conference 2017 - YouTube",
+        description: `Harry Roberts shares some tips to refactor CSS.`,
+        url: "https://www.youtube.com/watch?v=fvTryZjGyg8"
+      },
+      {
+        title: "Rich Harris - Rethinking reactivity - YouTube",
+        description: `Rich Harris compares Svelte to React.`,
+        url: "https://www.youtube.com/watch?v=AdNJ3fydeao"
+      },
+      {
+        title: "Take Back Your Web - Tantek Çelik - YouTube",
+        description: `Own your domain. Own your content. Own your social connections. Own your reading experience.`,
+        url: "https://www.youtube.com/watch?v=qBLob0ObHMw"
+      },
+      {
+        title: "What's new in responsive design by Rachel Andrew - YouTube",
+        description: `Rachel Andrew explains the new CSS features to create responsive design.`,
+        url: "https://www.youtube.com/watch?v=gSjPjkhIkNs"
       }
     ]
   },
